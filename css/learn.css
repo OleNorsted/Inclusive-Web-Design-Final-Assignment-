@@ -1,0 +1,28 @@
+*{
+    font-family: 'Poppins';
+}
+
+.container{
+    background-color: ghostwhite;
+}
+
+.mainbox{
+    justify-content: center;
+    margin: 20px;
+    width: 80%;
+}
+
+.stages{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+/**.stage1{
+    border: 2px solid black;
+}
+.stage2{
+    border: 2px solid black;
+}
+.stage3{
+    border: 2px solid black;
+}*/
