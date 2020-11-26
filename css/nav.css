@@ -16,6 +16,13 @@ header{
 .logo-div, .nav-links, .hamburger{
     display: flex;
 }
+
+/* Under skal endres! Er bare for å huske på det */
+.current {
+    color: black;
+    font-weight: bold;
+    /* background-color: rgba(135, 206, 250, 0.541); */
+}
 /*-------------------------------------------------------- */
 /*------------------------- logo ------------------------- */
 .logo-div{
