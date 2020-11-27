@@ -1,6 +1,15 @@
 /* Edit this. Just for some default top&bot margins since zeroed out by basic.css*/
 
 .tretten {
+    color: green;
+}
+
+.Orange-Ord {
+    color: darkorange;
+}
+
+.visit {
+   font-size: 16px;
     color: darkorange;
 }
 
@@ -23,6 +32,7 @@
     padding: 5rem 0 1rem 0;
     text-align: center;
     font-size: 2.6rem;
+    
 }
 
 .underHeadline{
