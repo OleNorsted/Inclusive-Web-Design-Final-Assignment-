@@ -25,16 +25,23 @@
 }
 
 #CanlengeHed{
-    display: flex;
+    text-align: center;
     order: 1;
-    width: auto;
+    width: 50%;
 }
 
 #CalengeList{
-    display: flex;
     order: 2;  
-    width: 
+    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    border: solid black 3px;
+    border-radius: 5px;
 
+}
+
+#CalengeList li{
+ padding: 5px;
 }
 
 
