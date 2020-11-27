@@ -19,11 +19,21 @@
     text-align: center;
 }
 
+.CalengeBody{
+    display: flex;
+
+}
+
+#CanlengeHed{
+    display: flex;
+    order: 1;
+    width: auto;
+}
+
 #CalengeList{
     display: flex;
-    flex-direction: column;
-
-    width: auto;
+    order: 2;  
+    width: 
 
 }
 
