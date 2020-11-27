@@ -56,14 +56,14 @@ nav{
 }
 
 .nav-link:hover{
-    color: chocolate;
+    color: rgb(252, 105, 0);
     transition: .1s all ease-out;
 }
 /* Under skal endres! Er bare for å huske på det */
 .current {
     font-weight: 600;
     padding: 3px 6px 3px 6px;
-    background-color: rgba(135, 206, 250, 0.541);
+    /* background-color: rgba(135, 206, 250, 0.541); */
 }
 
 /*---------------------- nav end ------------------------- */

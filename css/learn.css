@@ -15,6 +15,17 @@
 }
 /* ------------------------------------- */
 
+.Headline{
+    text-align: center;
+}
+
+#CalengeList{
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+
+}
 
 
 .container {
@@ -23,7 +34,8 @@
 
 .mainbox {
     justify-content: center;
-    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     width: 80%;
 }
 
