@@ -2,6 +2,7 @@
 /*-------------------------------------------------------- */
 header{
     border-bottom: 2px solid rgba(255, 255, 255, .2);
+    justify-content: space
 }
 
 .navigation{
