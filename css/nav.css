@@ -1,70 +1,69 @@
+
+
 /* ---------------------- Navigation bar ------------------*/
 /*-------------------------------------------------------- */
-header{
-    border-bottom: 2px solid rgba(255, 255, 255, .2);
+header {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     justify-content: space-around;
     margin: 1vh 1vh 0 1vh;
 }
 
-.navigation{
+.navigation {
     display: flex;
     width: 90%;
     align-items: center;
     font-size: 20px;
 }
 
-.logo-div, .nav-links, .hamburger{
+.logo-div,
+.nav-links,
+.hamburger {
     display: flex;
 }
 /*-------------------------------------------------------- */
 /*------------------------- logo ------------------------- */
-.logo-div{
+.logo-div {
     flex: 1;
 }
 
-.logo-img{
+.logo-img {
     height: 10vh;
 }
 
-.logo-text{
+.logo-text {
     font-weight: 500;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     float: left;
 }
 
-.logo-link{
+.logo-link {
     width: auto;
     margin: auto 0 auto 0;
     padding-right: 1vw;
 }
 
-
-
 /*--------------------- logo end ------------------------- */
 /*----------------------- nav ---------------------------- */
-nav{
+nav {
     flex: 2;
 }
 
-.nav-links{
+.nav-links {
     justify-content: space-around;
 }
 
-.nav-link{
+.nav-link {
     color: black;
     font-size: 18px;
 
     position: relative;
 }
 
-.nav-link:hover{
-    color: chocolate;
-    transition: .1s all ease-out;
+.nav-link:hover {
+    color: rgb(252, 105, 0);
+    transition: 0.1s all ease-out;
 }
-/* Under skal endres! Er bare for å huske på det */
-.current {
-    font-weight: 575;
-}
+
 
 .nav-link::before, .current::before{
     content: "";
@@ -87,13 +86,13 @@ nav{
 
 /*---------------------- nav end ------------------------- */
 /*--------------------- hamburger  ----------------------- */
-.hamburger img{
+.hamburger img {
     float: right;
     height: 3vh;
     cursor: pointer;
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 /*--------------------- hamburger end -------------------- */

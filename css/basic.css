@@ -1,8 +1,21 @@
+@font-face {
+    font-family: GothamBold;
+    src: url(../fonts/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url(../fonts/GothamLight.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
+    /* forslag til font (Oulie):*/
+    /* font-family: GothamLight; */
 }
 
 a{
