@@ -1,5 +1,5 @@
 main{
-    background: rgb(144, 144, 155);
+    background-color: whitesmoke;
 }
 
 .presentation{
@@ -23,49 +23,76 @@ main{
     -webkit-text-fill-color: transparent;
 }
 
-.main-section{
-    height: 90vh;
+#main-section{
+    height: 95vh;
     width: 90%;
     margin: auto;
-    margin-top: 10vh;
-    background-color: chocolate;
     display: flex;
+}
+
+section{
+    scroll-behavior: smooth;
 }
 
 .main-text{
     display: flex;
     flex-direction: column;
     text-align: center;
-    flex: 1;    border-radius: 20px;
-    background: #9bc277;
-    font-size: 1.0rem;
+    flex: 1;    
+    font-size: 1.3rem;
+    margin-top: 5%;
 
 }
 
 
 .main-text h2{
-width: 70%;
-margin-left: 15%;
+width: 90%;
+margin-left: 5%;
 padding-bottom: 2%;
 margin-top: 5%;
 }
 
 .main-p{
-    width: 70%;
-    margin-left: 15%;
+    width: 90%;
+    margin-left: 5%;
     padding-bottom: 3%;
+
 }
 
 .main-img{
-    background-color: crimson;
     flex: 1;
+}
+
+#img-main{
+    height: 60vh;
+    margin-left: 25%;
+    margin-top: 40%;
+}
+
+.main-button{
+    width: 30%;
+    padding:10px;
+    margin-bottom: 15%;
+    margin-left: 35%;
+    font-size: 1.3rem;
+    background-color: #9bc277;
+    border-radius: 3px;
+    border: transparent;
 }
 
 .Stages {
     width: 70%;
     margin-left: 15%;
-    padding-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #9bc277;
+    text-align: center;
+    font-size: 1.3rem;
 }
+
+.Stage{
+padding-bottom: 5%;}
 
 
 
