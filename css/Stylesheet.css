@@ -2,12 +2,9 @@ main{
     background: rgb(144, 144, 155);
 }
 
-section{
-    scroll-behavior: smooth;
-}
-
 .presentation{
-    height: 87.5vh;
+    margin-top: 20px;
+    height: 87vh;
     background: #9bc277;
 }
 
@@ -21,12 +18,16 @@ section{
 .intro-text h1{
     font-size: 44px;
     font-weight: 500;
+    background: linear-gradient(to right, #494949, #6f6f90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-#main-section{
-    height: 100vh;
+.main-section{
+    height: 90vh;
     width: 90%;
     margin: auto;
+    margin-top: 10vh;
     background-color: chocolate;
     display: flex;
 }
