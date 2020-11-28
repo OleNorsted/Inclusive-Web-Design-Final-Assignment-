@@ -2,9 +2,12 @@ main{
     background-color: whitesmoke;
 }
 
+section{
+    scroll-behavior: smooth;
+}
+
 .presentation{
-    margin-top: 20px;
-    height: 87vh;
+    height: 87.5vh;
     background: #9bc277;
 }
 
@@ -18,12 +21,9 @@ main{
 .intro-text h1{
     font-size: 44px;
     font-weight: 500;
-    background: linear-gradient(to right, #494949, #6f6f90);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
-#main-section{
+#main-section{  
     height: 95vh;
     width: 90%;
     margin: auto;
