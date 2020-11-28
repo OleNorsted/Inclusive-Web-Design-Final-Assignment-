@@ -50,6 +50,7 @@ nav {
 
 .nav-links {
     justify-content: space-around;
+    font-weight: bold;
 }
 
 .nav-link {
@@ -60,7 +61,7 @@ nav {
 }
 
 .nav-link:hover {
-    color: rgb(252, 105, 0);
+    color: darkorange;
     transition: 0.1s all ease-out;
 }
 

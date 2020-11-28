@@ -1,6 +1,4 @@
 
-
-/* Edit this. Just for some default top&bot margins since zeroed out by basic.css*/
 .tretten {
     color: green;
 }
@@ -20,21 +18,12 @@
     color: darkorange;
 }  
 
-/* ------------------------------------- */
 @media screen and (min-width:630px){
-
-.mainbox h2 {
-    margin-block-start: 1rem;
-    margin-block-end: 1rem;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 
 .Headline {
     padding: 5rem 0 1rem 0;
-    text-align: center;
+    text-align: left;
     font-size: 2.6rem;
-    /* font-family: GothamBold; */
 }
 
 .underHeadline {
@@ -61,7 +50,7 @@
     border-radius: 5px;
     background: #9bc277;
     font-size: 1.3rem;
-    /* box-shadow: 0 0 25px 0 rgba(0,0,0, 0.4) */
+    
     /* background: #c7e2e1; */
 }
 
@@ -86,47 +75,38 @@
 
 }
 
-.stages {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
 }
 
+
+
 @media screen and (max-width: 630px){
- 
     
     .Headline {
-        padding: 5rem 0 1rem 0;
+        padding: 4rem 0 1rem 0;
         text-align: center;
-        font-size: 2.6rem;
-        /* font-family: GothamBold; */
+        font-size: 2.0rem;
     }
     
     .underHeadline {
         padding-bottom: 5px;
-        font-size: 1.8rem;
-    }
-    
-    .LearnBody {
-        display: flex;
+        font-size: 1.6rem;
     }
     
     .LearnHed {
         text-align: center;
         padding-top: 8%;
         order: 1;
-        width: 50%;
+        width: 100%;
     }
     
     .LearnList {
         order: 2;
-        width: 50%;
-        margin-left: 10%;
-        margin-bottom: 40px;
+        width: 100%;
+        margin: 10px 0 40px 0;
         border-radius: 5px;
         background: #9bc277;
         font-size: 1.3rem;
+        padding: 10px;
     }
     
     .LearnList li {
@@ -143,10 +123,10 @@
     
     .mainbox {
         justify-content: center;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
         padding-bottom: 5%;
-        width: 60%;
+        width: 80%;
     
     }
     

@@ -15,7 +15,7 @@
 }
 
 .App-bilde{
-    width:40%;
+    width:35%;
     padding-top: 8%;
 }
 
@@ -29,6 +29,10 @@
 
 #App-tekst3{
     margin-top: 3%;
+}
+
+.link--too--privacy {
+    color: darkorange;
 }
 
 
