@@ -3,3 +3,12 @@
     text-align: center;
     margin-left: 10%;
 }
+
+.Data-tekst{
+    padding-bottom: 5%;
+    font-size: 1.3rem;
+}
+
+.Data-tekst h2 {
+    padding:5%
+}

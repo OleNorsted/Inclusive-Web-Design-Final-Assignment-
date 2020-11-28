@@ -14,19 +14,21 @@
     color: darkorange;
 }
 
+
+
+.footnote {
+    color: darkorange;
+}  
+
+/* ------------------------------------- */
+@media screen and (min-width:630px){
+
 .mainbox h2 {
     margin-block-start: 1rem;
     margin-block-end: 1rem;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.stages h4 {
-    margin-block-start: 1.33rem;
-    margin-block-end: 1.33rem;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-/* ------------------------------------- */
 
 .Headline {
     padding: 5rem 0 1rem 0;
@@ -89,18 +91,68 @@
     flex-direction: column;
     width: 50%;
 }
+}
 
-.footnote {
-    color: darkorange;
+@media screen and (max-width: 630px){
+ 
     
+    .Headline {
+        padding: 5rem 0 1rem 0;
+        text-align: center;
+        font-size: 2.6rem;
+        /* font-family: GothamBold; */
+    }
+    
+    .underHeadline {
+        padding-bottom: 5px;
+        font-size: 1.8rem;
+    }
+    
+    .LearnBody {
+        display: flex;
+    }
+    
+    .LearnHed {
+        text-align: center;
+        padding-top: 8%;
+        order: 1;
+        width: 50%;
+    }
+    
+    .LearnList {
+        order: 2;
+        width: 50%;
+        margin-left: 10%;
+        margin-bottom: 40px;
+        border-radius: 5px;
+        background: #9bc277;
+        font-size: 1.3rem;
+    }
+    
+    .LearnList li {
+        padding: 5px;
+    }
+    
+    .container {
+        background-color: whitesmoke;
+    }
+    
+    .container p {
+        font-size: 1.3rem;
+    }
+    
+    .mainbox {
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-bottom: 5%;
+        width: 60%;
+    
+    }
+    
+    .stages {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
 }
-
-/**.stage1{
-    border: 2px solid black;
-}
-.stage2{
-    border: 2px solid black;
-}
-.stage3{
-    border: 2px solid black;
-}*/
