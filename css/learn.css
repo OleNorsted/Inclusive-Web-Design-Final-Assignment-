@@ -1,4 +1,3 @@
-
 .tretten {
     color: green;
 }
@@ -12,94 +11,79 @@
     color: darkorange;
 }
 
-
-
 .footnote {
     color: darkorange;
-}  
-
-@media screen and (min-width:630px){
-
-.Headline {
-    padding: 5rem 0 1rem 0;
-    text-align: left;
-    font-size: 2.6rem;
-    text-align: center;
 }
 
-.underHeadline {
-    font-size: 1.8rem;
-}
-
-.LearnBody {
-    display: flex;
-}
-
-.LearnHed {
-    text-align: center;
-    padding-top: 8%;
-    order: 1;
-    width: 50%;
-}
-
-.LearnList {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    order: 2;
-    width: 50%;
-    margin-left: 10%;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    background: #9bc277;
-    font-size: 1.3rem;
-    
-    /* background: #c7e2e1; */
-}
-
-.LearnList li {
-    padding: 5px;
-}
-
-.container {
-    background-color: whitesmoke;
-}
-
-.container p {
-    font-size: 1.3rem;
-}
-
-.mainbox {
-    justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-bottom: 5%;
-    width: 60%;
+@media screen and (min-width:630px) {
+    .Headline {
+        padding: 5rem 0 1rem 0;
+        text-align: left;
+        font-size: 2.6rem;
+        text-align: center;
+    }
+    .underHeadline {
+        font-size: 1.5rem;
+    }
+    .LearnBody {
+        display: flex;
+    }
+    .LearnHed {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 8%;
+        order: 1;
+        width: 50%;
+    }
+    .LearnList {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        order: 2;
+        width: 50%;
+        margin-left: 10%;
+        margin-bottom: 40px;
+        border-radius: 5px;
+        background: #9bc277;
+        font-size: 1.3rem;
+        /* background: #c7e2e1; */
+    }
+    .LearnList li {
+        padding: 5px;
+    }
+    .container {
+        background-color: whitesmoke;
+    }
+    .container p {
+        font-size: 1.3rem;
+    }
+    .mainbox {
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-bottom: 5%;
+        width: 60%;
+    }
+    .Paragraph{
+        padding-top: 30%;
+    }
 
 }
 
-}
-
-
-
-@media screen and (max-width: 630px){
-    
+@media screen and (max-width: 630px) {
     .Headline {
         padding: 4rem 0 1rem 0;
         text-align: center;
         font-size: 2.0rem;
     }
-    
     .underHeadline {
         padding-bottom: 5px;
         font-size: 1.6rem;
     }
-    
     .LearnHed {
         text-align: center;
         padding-top: 8%;
         order: 1;
         width: 100%;
     }
-    
     .LearnList {
         order: 2;
         width: 100%;
@@ -109,28 +93,25 @@
         font-size: 1.3rem;
         padding: 10px;
     }
-    
     .LearnList li {
         padding: 5px;
     }
-    
     .container {
         background-color: whitesmoke;
     }
-    
     .container p {
         font-size: 1.3rem;
     }
-    
     .mainbox {
         justify-content: center;
         margin-left: 10%;
         margin-right: 10%;
         padding-bottom: 5%;
         width: 80%;
-    
     }
-    
+    .Paragraph{
+        padding-top: 30%;
+    }
     .stages {
         display: flex;
         flex-direction: column;

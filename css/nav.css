@@ -13,6 +13,7 @@ header {
     width: 90%;
     align-items: center;
     font-size: 20px;
+    margin: auto;
 }
 
 .logo-div,
@@ -93,7 +94,16 @@ nav {
     cursor: pointer;
 }
 
+@media screen and (min-width:769px){
+
 .hamburger {
     display: none;
+}
+}
+
+@media screen and (max-width:768px){
+    .nav-links{
+        display: none;
+    }
 }
 /*--------------------- hamburger end -------------------- */
