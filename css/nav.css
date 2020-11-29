@@ -1,5 +1,3 @@
-
-
 /* ---------------------- Navigation bar ------------------*/
 /*-------------------------------------------------------- */
 header {
@@ -66,8 +64,8 @@ nav {
     transition: 0.1s all ease-out;
 }
 
-
-.nav-link::before, .current::before{
+.nav-link::before,
+.current::before {
     content: "";
     display: block;
     height: 5px;
@@ -78,11 +76,11 @@ nav {
     transition: all ease-in-out 250ms;
 }
 
-.current::before{
+.current::before {
     width: 100%;
 }
 
-.nav-link:hover::before{
+.nav-link:hover::before {
     width: 100%;
 }
 
@@ -94,15 +92,14 @@ nav {
     cursor: pointer;
 }
 
-@media screen and (min-width:769px){
-
-.hamburger {
-    display: none;
+@media screen and (min-width: 769px) {
+    .hamburger {
+        display: none;
+    }
 }
-}
 
-@media screen and (max-width:768px){
-    .nav-links{
+@media screen and (max-width: 768px) {
+    .nav-links {
         display: none;
     }
 }

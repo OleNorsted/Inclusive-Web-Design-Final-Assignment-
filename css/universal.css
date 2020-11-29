@@ -1,18 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    color: #252523;
-    font-family: 'Poppins', sans-serif;
+
+    font-family: "Poppins", sans-serif;
     /*font-family: "Nunito", sans-serif;*/
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-li{
+li {
     list-style: none;
 }

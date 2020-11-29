@@ -15,6 +15,8 @@
     color: darkorange;
 }
 
+
+
 @media screen and (min-width:630px) {
     .Headline {
         padding: 5rem 0 1rem 0;
@@ -50,7 +52,7 @@
         padding: 5px;
     }
     .container {
-        background-color: whitesmoke;
+        background-color: #f5f5f5;
     }
     .container p {
         font-size: 1.3rem;
@@ -63,9 +65,26 @@
         width: 60%;
     }
     .Paragraph{
-        padding-top: 30%;
+        padding-top: 20%;
     }
 
+    .presentationLearn {
+        height: 87.7vh;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0,0.8) 100%), url("../media/intro.background.jpg")
+        center no-repeat fixed;
+        position: relative;
+        color: white;
+    }
+    
+
+}
+
+.presentationLearn {
+    height: 87.7vh;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0,0.8) 100%), url("../media/intro.background.jpg")
+    center no-repeat fixed;
+    position: relative;
+    color: white;
 }
 
 @media screen and (max-width: 630px) {
@@ -117,4 +136,73 @@
         flex-direction: column;
         width: 50%;
     }
+
+    .presentationLearn {
+        height: 87.7vh;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0,0.8) 100%), url("../media/intro.background.jpg")
+        center no-repeat fixed;
+        position: relative;
+        color: white;
+    }
+    
+}
+
+@media screen and (max-width: 300px) {
+    .Headline {
+        padding: 4rem 0 1rem 0;
+        text-align: center;
+        font-size: 2.0rem;
+    }
+    .underHeadline {
+        padding-bottom: 5px;
+        font-size: 1.6rem;
+    }
+    .LearnHed {
+        text-align: center;
+        padding-top: 8%;
+        order: 1;
+        width: 100%;
+    }
+    .LearnList {
+        order: 2;
+        width: 100%;
+        margin: 10px 0 40px 0;
+        border-radius: 5px;
+        background: #9bc277;
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    .LearnList li {
+        padding: 5px;
+    }
+    .container {
+        background-color: whitesmoke;
+    }
+    .container p {
+        font-size: 1.3rem;
+    }
+    .mainbox {
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 5%;
+        width: 80%;
+    }
+    .Paragraph{
+        padding-top: 30%;
+    }
+    .stages {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .presentationLearn {
+        height: 87.7vh;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0,0.8) 100%), url("../media/intro.background.jpg")
+        center no-repeat fixed;
+        position: relative;
+        color: white;
+    }
+    
 }
