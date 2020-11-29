@@ -72,7 +72,7 @@ nav {
     height: 5px;
     width: 0%;
     top: -20%;
-    background-color: rgb(67, 121, 13);
+    background-color: #43790d;
     position: absolute;
     transition: all ease-in-out 250ms;
 }

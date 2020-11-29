@@ -1,86 +1,91 @@
-main{
+main {
     background-color: whitesmoke;
 }
 
-section{
-    scroll-behavior: smooth;
-}
-
-.presentation{
-    height: 87.7vh;
-    background: #9bc277;
-}
-
-.introduction{
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.intro-text h1{
-    font-size: 44px;
-    font-weight: 500;
-}
-
-#main-section{  
-    height: 95vh;
-    width: 90%;
-    margin: auto;
+section {
+    padding: 5rem;
     display: flex;
 }
 
-.main-text{
+.presentation {
+    height: 87.7vh;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0,0.8) 100%), url("../media/intro.background.jpg")
+    center no-repeat fixed;
+    position: relative;
+}
+
+.introduction {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+#main-section {
+    height: 95vh;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.main-text {
     display: flex;
     flex-direction: column;
     text-align: center;
-    flex: 1;    
+    flex: 2;
     font-size: 1.3rem;
-
 }
 
-
-.main-text h2{
-width: 90%;
-margin-left: 5%;
-padding-bottom: 2%;
-margin-top: 5%;
-}
-
-.main-p{
+.main-text h2 {
     width: 90%;
     margin-left: 5%;
-    padding-bottom: 3%;
-
+    padding-bottom: 2%;
 }
 
-.main-img{
+.paragraph {
+    width: 90%;
+    height: 100vh;
+}
+
+
+.main-img {
     flex: 1;
+    height: 35rem;
+    display: flex;
 }
 
-#img-main{
-    /* height: 60vh; */
-
-    height: 500px;
+#img-main {
+    height: 35rem;
     width: auto;
-    margin-left: 25%;
-    margin-top: 40%;
+    margin: auto;
 }
 
 .main-button{
-    width: 30%;
-    padding:10px;
-    margin-bottom: 15%;
-    margin-left: 35%;
-    font-size: 1.3rem;
     background-color: #9bc277;
-    border-radius: 3px;
-    border: transparent;
+    display: flex;
+    width: fit-content;
+    margin: 5px auto auto auto;
+    padding: 0.3rem 1rem;
+    border: solid 2px transparent;
+    border-radius: 30px;
 }
 
-.steps{
-    padding-bottom: 5%;}
-    
+.main-button:hover{
+    border: solid 2px #43790d;
+    transition: all ease-in-out 200ms;
+}
+
+.extraMargin{
+    margin-top: 3rem;
+}
+
+.steps {
+    padding-bottom: 5%;
+}
 
 .step {
     width: 70%;
@@ -91,14 +96,11 @@ margin-top: 5%;
     background-color: #9bc277;
     text-align: center;
     font-size: 1.3rem;
-
     display: flex;
     flex-direction: column;
-    
 }
 
-
-footer{
+footer {
     position: bottom;
     bottom: 0px;
     width: 100%;
@@ -106,16 +108,16 @@ footer{
     height: 30vh;
 }
 
-.footer-box{
-    display: flex;   
-    align-items: center; 
+.footer-box {
+    display: flex;
+    align-items: center;
 }
 
-.left-box{
+.left-box {
     flex: 1;
 }
 
-.facebook-box{
+.facebook-box {
     display: flex;
     flex-direction: row;
 }
