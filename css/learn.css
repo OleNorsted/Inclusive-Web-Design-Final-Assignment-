@@ -33,7 +33,7 @@
     color: #71a046;
 }
 
-@media screen and (min-width:630px) {
+@media screen and (min-width:700px) {
     .Headline {
         padding: 5rem 0 1rem 0;
         text-align: left;
@@ -81,7 +81,7 @@
         width: 60%;
     }
     .Paragraph {
-        padding-top: 15%;
+        padding-top: 10%;
     }
     .presentationLearn {
         height: 40vh;
@@ -101,82 +101,11 @@
   
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 700px) {
     .Headline {
         padding: 4rem 0 1rem 0;
         text-align: center;
-        font-size: 1.3rem;
-    }
-    .underHeadline {
-        padding-bottom: 5px;
-        font-size: 1.6rem;
-    }
-    .LearnHed {
-        text-align: center;
-        padding-top: 8%;
-        order: 1;
-        width: 100%;
-    }
-    .LearnList {
-        order: 2;
-        width: 100%;
-        margin: 10px 0 40px 0;
-        border-radius: 5px;
-        background: #9bc277;
-        font-size: 1.3rem;
-        padding: 10px;
-    }
-    .LearnList li {
-        padding: 5px;
-    }
-    .container {
-        background-color: whitesmoke;
-    }
-    .container p {
-        font-size: 1.3rem;
-    }
-    .mainbox {
-        justify-content: center;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-bottom: 5%;
-        width: 80%;
-    }
-    .Paragraph {
-        padding-top: 30%;
-    }
-    .stages {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }
-    .presentationLearn {
-        height: 40vh;
-        position: relative;
-        color: black;
-    }
-    .introductionLearn {
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .intro-textLearn h1 {
-        font-size: 35px;
-        font-weight: 500;
-        padding: 2rem;
-        color: black;
-    }
-
-    section{
-        padding: 2rem;
-    }
-}
-
-@media screen and (max-width: 330px) {
-    .Headline {
-        padding: 4rem 0 1rem 0;
-        text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
     .underHeadline {
         padding-bottom: 5px;
@@ -233,6 +162,78 @@
     }
     .intro-textLearn h1 {
         font-size: 30px;
+        font-weight: 500;
+        padding: 2rem;
+        color: black;
+    }
+
+    section{
+        padding: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .Headline {
+        padding: 4rem 0 1rem 0;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .underHeadline {
+        padding-bottom: 5px;
+        font-size: 1.6rem;
+    }
+    .LearnHed {
+        text-align: center;
+        padding-top: 8%;
+        order: 1;
+        width: 100%;
+    }
+    .LearnList {
+        order: 2;
+        width: 100%;
+        margin: 10px 0 40px 0;
+        border-radius: 5px;
+        background: #9bc277;
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    .LearnList li {
+        padding: 5px;
+    }
+    .container {
+        background-color: whitesmoke;
+    }
+    .container p {
+        font-size: 1.3rem;
+    }
+    .mainbox {
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 5%;
+        width: 80%;
+    }
+    .Paragraph {
+        padding-top: 30%;
+    }
+    .stages {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .presentationLearn {
+        height: 40vh;
+        position: relative;
+        color: black;
+    }
+    .introductionLearn {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .intro-textLearn h1 {
+        font-size: 25px;
         font-weight: 500;
         padding:1rem;
         color: black;
