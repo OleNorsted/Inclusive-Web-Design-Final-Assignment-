@@ -42,10 +42,9 @@
 }
 
 .presentationApp {
-    height: 85vh;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
+    height: 87.7vh;
+    background: whitesmoke;
     position: relative;
-    padding-top: 200px;
 }
 
 .introductionApp {
@@ -57,14 +56,14 @@
 .intro-textApp h1 {
     font-size: 44px;
     font-weight: 500;
-    color: whitesmoke;
+    color: black;
 }
 
 .farge-Ord {
     color: darkorange;
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 840px) {
     .App-main {
         display: flex;
         width: 80%;
@@ -101,10 +100,9 @@
         padding-top: 10%;
     }
     .presentationApp {
-        height: 85vh;
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
+        height: 40vh;
+        background: whitesmoke;
         position: relative;
-        padding-top: 200px;
     }
     .introductionApp {
         width: 90%;
@@ -114,7 +112,7 @@
     .intro-textApp h1 {
         font-size: 44px;
         font-weight: 500;
-        color: whitesmoke;
+        color: black;
     }
     .farge-Ord {
         color: darkorange;
@@ -127,7 +125,7 @@
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 840px) {
     .App-main {
         display: flex;
         width: 90%;
@@ -164,8 +162,8 @@
     }
 
     .presentationApp {
-        height: 85vh;
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
+        height: 40vh;
+        background: whitesmoke;
         position: relative;
     }
     .introductionApp {
@@ -173,17 +171,17 @@
         margin: 0 auto;
         text-align: center;
     }
-    .intro-textApp h2 {
-        font-size: 44px;
+    .intro-textApp h1 {
+        font-size: 35px;
         font-weight: 500;
-        color: whitesmoke;
+        color: black;
     }
     .farge-Ord {
         color: darkorange;
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 530px) {
     .App-main {
         display: flex;
         width: 80%;
@@ -221,10 +219,10 @@
     }
 
     .presentationApp {
-        height: 85vh;
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
+        height: 45vh;
+        background: whitesmoke;
         position: relative;
-        padding-top: 200px;
+        padding: 1rem;
     }
     .introductionApp {
         width: 90%;
@@ -234,7 +232,7 @@
     .intro-textApp h1 {
         font-size: 30px;
         font-weight: 500;
-        color: whitesmoke;
+        color: black;
     }
     .farge-Ord {
         color: darkorange;
