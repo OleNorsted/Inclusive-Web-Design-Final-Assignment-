@@ -8,7 +8,7 @@ section {
 }
 
 .presentation {
-    height: 87.7vh;
+    height: 100vh;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0,0.8) 100%), url("../media/intro.background.jpg")
     center no-repeat fixed;
     position: relative;
@@ -25,6 +25,8 @@ section {
     font-weight: 500;
     color: whitesmoke;
 }
+
+
 
 #main-section {
     height: 110vh;
@@ -127,17 +129,3 @@ section {
 }
 
 
-
-@media screen and (max-width: 800px){
-   
-    .main-section{
-        background-color: blue;
-        flex-wrap:nowrap;
-        
-    }
-   
-   
-    .main-tekst{
-        flex:1;
-    }
-}

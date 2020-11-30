@@ -14,35 +14,29 @@
 
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/universal.css">
-    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/privacy.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/source.css">
 
 </head>
 
 <body>
-    <header>
-        <div class="navigation">
-            <div class="logo-div">
-                <a class="logo-link" href="../index.html">
-                    <img src="../media/Hovedlogo.png" alt="logo" class="logo-img"></a>
-                <a class="logo-link" href="../index.html">
-                    <h4 class="logo-text">EcoFeast</h4>
-                </a>
-            </div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a class="nav-link" href="../index.html">Home</a></li>
-                    <li><a class="nav-link" href="learnmore.html">Learn more</a></li>
-                    <li><a class="nav-link" href="TheApp.html">The App</a></li>
-                    <li><a class="nav-link current" href="privacy.html">FAQ</a></li>
-                </ul>
-            </nav>
-            <div class="hamburger">
-                <a href="hamburger.html"><img src="../media/Hamburger_icon.svg.png" alt="hamburgerIcon"></a>
-            </div>
-        </div>
-        </div>
+    <header class="header">
+        <a href="/" class="logo">
+            <img src="../media/Hovedlogo.png" alt="Image of planet with black circle on top left and cutlery inside the circle" class="logo-img" id="logo">
+        </a>
+
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+        <ul class="menu">
+            <li class="topNav"><a class="nav-link current" href="../index.html">Home</a></li>
+            <li><a class="nav-link" href="html-files/learnmore.html">Learn More</a></li>
+            <li><a class="nav-link" href="html-files/TheApp.html">The App</a></li>
+            <li class="bottomNav"><a class="nav-link" href="html-files/privacy.html">FAQ</a></li>
+        </ul>
     </header>
 
     <main>
@@ -52,33 +46,36 @@
                     <h2>Sources:</h2>
                     <h3>Information sources:</h3>
                     <p>
-                        https://www.pinclipart.com/downpngs/ibbwwwo_laptop-clipart-png-apple-laptop-vector-png-transparent/
-                        https://logomakr.com/0vVecA
-                        https://www.cowspiracy.com/facts
-                        https://www.iaea.org/topics/greenhouse-gas-reduction
+                        <a class="sourceLinks" href="https://www.pinclipart.com/downpngs/ibbwwwo_laptop-clipart-png-apple-laptop-vector-png-transparent/">Pinclipart - Laptop png</a>
+                        <br>
+                        <a class="sourceLinks" href="https://logomakr.com/0vVecA">Logomakr</a>
+                        <br>
+                        <a class="sourceLinks" href="https://www.cowspiracy.com/facts">Cowspiracy facts</a>
+                        <br>
+                        <a class="sourceLinks" href="https://www.iaea.org/topics/greenhouse-gas-reduction">Iaea - greenhouse-gas-reduction</a>
 
                     </p>
                     <br>
                     <h3>Hamburger menu source:</h3>
                     <p>
-                        https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99
+                        <a class="sourceLinks" href="https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99">Medium - mobile dropdown nav without JS</a>
                     </p>
                     <br>
                     <h3>Image Sources</h3>
                     <p>
-                        https://www.pinclipart.com/maxpin/obxoxh/
-
-                        https://logomakr.com/9RsSG1
-
-                        https://wallpaperaccess.com/219
+                        <a class="sourceLinks" href="https://www.pinclipart.com/maxpin/obxoxh/">Pinclipart</a>
+                        <br>
+                        <a class="sourceLinks" href="https://logomakr.com/9RsSG1">Logomakr</a>
+                        <br>
+                        <a class="sourceLinks" href="https://wallpaperaccess.com/219">Wallpaperaccess - </a>
 
                     </p>
                     <br>
                     <h3>Icon Sources (From logo through icons in the navigation menu</h3>
                     <p>
-                        https://iconmonstr.com/?s=plus
+                        <a class="sourceLinks" href="https://iconmonstr.com/?s=plus">Iconmonstr</a>
 
-                        https://logomakr.com/9RsSG1
+                        <a class="sourceLinks" href="https://logomakr.com/9RsSG1">Logomakr</a>
                     </p>
                 </div>
             </div>
@@ -91,7 +88,7 @@
             <div class="footer-left">
                 <div class="footer-logo-div">
                     <a class="logo-link" href="index.html">
-                        <img src="media/Hovedlogo.png" alt="logo" class="footer-logo-img"></a>
+                        <img src="../media/Hovedlogo.png" alt="Image of planet with black circle on top left and cutlery inside the circle" class="footer-logo-img"></a>
                     <a class="logo-link" href="index.html">
                         <h4 class="footer-logo-text">EcoFeast</h4>
                     </a>
@@ -116,7 +113,7 @@
                         <li>0167 Oslo</li>
                     </ul>
                 </li>
-                <a class="main-button upBtn" href="index.html">Take me back up!</a>
+                <a class="main-button upBtn" href="source.html">Scroll to top</a>
                 </li>
             </ul>
         </div>
