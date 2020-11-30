@@ -126,7 +126,9 @@ section {
     color:darkorange;
 }
 
-@media screen and (max-width: 1000px){
+
+
+@media screen and (max-width: 800px){
    
     .main-section{
         background-color: blue;
