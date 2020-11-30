@@ -1,23 +1,39 @@
 footer{
     display: flex;
-    flex-flow: row wrap;
     background-color: ghostwhite;
     position: relative;
     margin: auto;
 }
-.footer, .footer-text, .footer-left, .footer-right{
+.footer, .footer-div, .footer-left, .footer-right{
     display: flex;
     flex: 1;
 }
-.footer-text{
+.footer-div{
     background-color: yellow;
     padding: 2rem;
 }
+
+/**/
+
 .footer-left{
-    background-color: green;
+    background-color: ghostwhite;
     flex-direction: column;
+    height: 150px;
 }
-.footer-left img{
+
+.footer-logo-div{
+    display: flex;
+}
+.footer-logo-img{
+    height: 10vh;
+}
+
+.socials{
+}
+.footer-logo-img{
+    width: 100px;
+}
+.social-img{
     width: 40px;
 }
 .footer-title{
@@ -41,6 +57,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
+    text-align: center;
 }
 .footer-left p{
     padding-right: 20%;
