@@ -28,7 +28,6 @@ section {
 
 #main-section {
     height: 110vh;
-    width: 90%;
     margin-bottom: 2rem;
 }
 
@@ -125,4 +124,16 @@ section {
 
 .footnote {
     color:darkorange;
+}
+
+@media screen and (max-width: 1000px){
+   
+    .main-section{
+        flex-wrap:nowrap;
+    }
+   
+   
+    .main-tekst{
+        flex:1;
+    }
 }
