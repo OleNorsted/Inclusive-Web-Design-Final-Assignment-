@@ -1,4 +1,4 @@
-.App-main{
+.App-main {
     display: flex;
     width: 80%;
     flex-wrap: wrap;
@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.App-tekst{
+.App-tekst {
     width: 60%;
     margin-bottom: 3%;
     padding: 2.5%;
@@ -14,20 +14,20 @@
     padding-top: 14%;
 }
 
-.App-bilde{
-    width:35%;
+.App-bilde {
+    width: 35%;
     padding-top: 8%;
 }
 
-.App-bilder{
+.App-bilder {
     width: 100%;
 }
 
-#App-tekst2{
+#App-tekst2 {
     margin-top: 3%;
 }
 
-#App-tekst3{
+#App-tekst3 {
     margin-top: 3%;
 }
 
@@ -37,13 +37,13 @@
 
 .Nav-Bilde {
     scale: 10%;
-    padding-top: 60%;
+    padding-top: 5%;
+    width:75%;
 }
 
 .presentationApp {
     height: 87.7vh;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0,0.8) 100%), url("../media/intro.background.jpg")
-    center no-repeat fixed;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
     position: relative;
 }
 
@@ -63,70 +63,170 @@
     color: darkorange;
 }
 
-@media screen and (max-width: 620px) {
-    .App-main{
+@media screen and (min-width: 770px) {
+    .App-main {
         display: flex;
         width: 80%;
         flex-wrap: wrap;
         margin-left: 10%;
         text-align: center;
     }
-    
-    .App-tekst{
+    .App-tekst {
         width: 60%;
         margin-bottom: 3%;
         padding: 2.5%;
         font-size: 1.3rem;
         padding-top: 14%;
     }
-    
-    .App-bilde{
-        width:35%;
-        padding-top: 8%;
-    }
-    
-    .App-bilder{
+    .App-bilder {
         width: 100%;
     }
-    
-    #App-tekst2{
-        margin-top: 3%;
+    .App-bilde {
+        width: 35%;
+        padding-top: 20%;
     }
     
-    #App-tekst3{
+    #App-tekst2 {
         margin-top: 3%;
     }
-    
+    #App-tekst3 {
+        margin-top: 3%;
+    }
     .link--too--privacy {
         color: darkorange;
     }
-    
     .Nav-Bilde {
         scale: 10%;
-        padding-top: 60%;
+        padding-top: 10%;
     }
-    
     .presentationApp {
         height: 87.7vh;
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0,0.8) 100%), url("../media/intro.background.jpg")
-        center no-repeat fixed;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
         position: relative;
     }
-
     .introductionApp {
         width: 90%;
         margin: 0 auto;
         text-align: center;
     }
-    
     .intro-textApp h2 {
         font-size: 44px;
         font-weight: 500;
         color: whitesmoke;
     }
-    
     .farge-Ord {
         color: darkorange;
     }
 }
 
+@media screen and (max-width: 770px) {
+    .App-main {
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .App-tekst {
+        width: 54%;
+        margin-bottom: 3%;
+        padding: 2.5%;
+        font-size: 1.3rem;
+        padding-top: 14%;
+    }
+    .App-bilder {
+        width: 100%;
+    }
+    .App-bilde {
+        width: 45%;
+        padding-top: 15%;
+    }
+    
+    #App-tekst2 {
+        margin-top: 3%;
+    }
+    #App-tekst3 {
+        margin-top: 3%;
+    }
+    .link--too--privacy {
+        color: darkorange;
+    }
+    .Nav-Bilde {
+        width:80%;
+    }
+
+    .presentationApp {
+        height: 87.7vh;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
+        position: relative;
+    }
+    .introductionApp {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .intro-textApp h2 {
+        font-size: 44px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+    .farge-Ord {
+        color: darkorange;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .App-main {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .App-tekst {
+        width: 60%;
+        margin-bottom: 3%;
+        padding: 2.5%;
+        font-size: 1.3rem;
+        padding-top: 14%;
+    }
+    .App-bilder {
+        width: 100%;
+    }
+    .App-bilde {
+        width: 35%;
+        padding-top: 20%;
+    }
+    
+    #App-tekst2 {
+        margin-top: 3%;
+    }
+    #App-tekst3 {
+        margin-top: 3%;
+    }
+    .link--too--privacy {
+        color: darkorange;
+    }
+    .Nav-Bilde {
+        width:80%;
+    }
+
+    .presentationApp {
+        height: 87.7vh;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
+        position: relative;
+    }
+    .introductionApp {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .intro-textApp h2 {
+        font-size: 44px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+    .farge-Ord {
+        color: darkorange;
+    }
+}

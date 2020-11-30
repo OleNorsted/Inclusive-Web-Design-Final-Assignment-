@@ -2,14 +2,13 @@ footer{
     display: flex;
     background-color: ghostwhite;
     position: relative;
-    margin: auto;
+    margin: auto auto 2vh auto;
 }
 .footer, .footer-div, .footer-left, .footer-right{
     display: flex;
     flex: 1;
 }
 .footer-div{
-    background-color: yellow;
     padding: 2rem;
 }
 
@@ -19,22 +18,23 @@ footer{
     background-color: ghostwhite;
     flex-direction: column;
     height: 150px;
+    margin-left: 1vw;
 }
 
 .footer-logo-div{
     display: flex;
 }
+
 .footer-logo-img{
     height: 10vh;
 }
-.footer
 
-.socials{
+/**/
+
+.sources{
+    margin: 2vh auto auto 0;
 }
 
-.social-img{
-    width: 40px;
-}
 .footer-title{
     font-weight: 600;
     font-size: 17px;
@@ -45,49 +45,18 @@ footer{
 .footer li{
     line-height: 2em;
 }
+.footer-right > *{
+    flex: 1;
+}
 .footer-right{
     display: flex;
+    flex: 3;
 }
-.box a{
-    color: #999;
-}
+
 .footer-bottom{
-    background-color: yellowgreen;
+    background-color: #ff951c;
     position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
-}
-.footer-left p{
-    padding-right: 20%;
-    color: #999;
-}
-.socials a{
-    background-color: lightblue;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.sources{
-    background-color: lightblue;
-    width: 64px;
-    height: 22px;
-    margin-right: 10px;
-}
-.socials a img{
-    color: lightcoral;
-    padding: 10px 12px;
-}
-@media screen and (min-width: 600px){
-    .footer-right > *{
-        flex: 1;
-    }
-    .footer-left{
-        flex: 1;
-    }
-    .footer-right{
-        flex: 2;
-    }
 }
