@@ -55,7 +55,7 @@
 .nav-link {
     color: black;
     font-size: 1.2rem;
-
+    font-weight: 300;
     position: relative;
 }
 
@@ -70,6 +70,10 @@
 
 .current::before {
     width: 100%;
+}
+
+.current {
+    font-weight: bold;
 }
 
 .header .logo {
@@ -122,11 +126,11 @@
 }
 
 .header .menu-icon .navicon:before {
-    top: 9px;
+    top: 8px;
 }
 
 .header .menu-icon .navicon:after {
-    top: -9px;
+    top: -8px;
 }
 
 .header .menu-btn {
@@ -214,24 +218,23 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .header {
-        border-bottom: 3px solid black;
-    }
 
     .header ul.menu {
-        border-top: 3px solid black;
+        /* border-top: 3px solid black; */
+        background: whitesmoke;
     }
 
-    .header .menu li {
+    .header ul.menu li {
         padding: 1px;
         margin-right: 0px;
-
         min-width: 100%;
         text-align: left;
         letter-spacing: 1px;
-        /* background-color: #c7e2e1; */
         border-bottom: 2px solid hsla(0, 15%, 5%, 0.151);
-        /* border: 1px solid black; */
+    }
+
+    .header .menu li:active {
+
     }
 
     .header .menu li.bottomNav {
@@ -316,7 +319,7 @@
         font-size: 1.3rem;
         padding-right: 10px;
         position: relative;
-        top: 16px;
+        top: 15px;
         left: -55px;
     }
 

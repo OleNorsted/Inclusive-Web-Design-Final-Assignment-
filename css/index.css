@@ -123,6 +123,10 @@ section {
     color: darkorange;
 }
 
+.pink {
+    color: rgb(221, 120, 137);
+}
+
 @media screen and (max-width: 768px){    
     .intro-text h1 {
         font-size: 35px;
