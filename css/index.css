@@ -129,7 +129,9 @@ section {
 @media screen and (max-width: 1000px){
    
     .main-section{
+        background-color: blue;
         flex-wrap:nowrap;
+        
     }
    
    

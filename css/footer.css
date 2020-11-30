@@ -42,11 +42,6 @@ footer, .footer-div, .footer-left, .footer-right{
     padding-left: 0;
 }
 
-.footer-link{
-    padding: 5px;
-    border: 2px solid red;
-    border-radius: 30px;
-}
 
 .footer-right > *{
     flex: 1;
