@@ -26,8 +26,7 @@ section {
 }
 
 #main-section {
-    height: 110vh;
-    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 .main-text {
@@ -122,4 +121,78 @@ section {
 
 .footnote {
     color: darkorange;
+}
+
+@media screen and (max-width: 768px){    
+    .intro-text h1 {
+        font-size: 35px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+    
+    #main-section {
+        height: 110vh;
+        margin-bottom: 1rem;
+    }
+    
+    .main-text {
+        flex: 2;
+        font-size: 16px;
+    }
+    
+    .main-text h1{
+        font-size: 20px;
+    }
+    
+    .main-img {
+        margin-top: 0;
+        flex: 1;
+        height: 35rem;
+        display: flex;
+    }
+    
+    #img-main {
+        height: 25rem;
+        width: auto;
+        margin: auto;
+    }
+    
+    .main-button{
+        background-color: #9bc277;
+        display: flex;
+        width: fit-content;
+        margin: 20px auto auto auto;
+        padding: 0.3rem 1rem;
+        border: solid 2px transparent;
+        border-radius: 30px;
+    }
+    
+    .main-button:hover{
+        border: solid 2px #43790d;
+        transition: all ease-in-out 200ms;
+    }
+
+    .extraMargin {
+        margin-top: 2rem;
+    }
+    .steps {
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    
+    .step {
+        width: 100%;
+        margin: 2% auto;
+        background-color: #9bc277;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .step-title {
+        text-align: center;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
 }
