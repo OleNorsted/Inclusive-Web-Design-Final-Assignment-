@@ -1,17 +1,18 @@
 footer{
     display: flex;
     flex-flow: row wrap;
-    padding: 50px;
     background-color: ghostwhite;
     position: relative;
     margin: auto;
 }
-.footer, .footer-right{
+.footer, .footer-text, .footer-left, .footer-right{
+    display: flex;
     flex: 1;
 }
 .footer-left{
-    margin-right: 1.25rem;
-    margin-bottom: 2em;
+    background-color: green;
+    flex-direction: column;
+    
 }
 .footer-left img{
     width: 40px;
