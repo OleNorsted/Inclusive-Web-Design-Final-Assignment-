@@ -83,7 +83,7 @@
     }
     .App-bilde {
         width: 35%;
-        padding-top: 20%;
+        padding-top: 8%;
     }
     
     #App-tekst2 {
@@ -116,6 +116,12 @@
     }
     .farge-Ord {
         color: darkorange;
+    }
+}
+
+@media screen and (width:1024px){
+    .App-bilde{
+        padding-top:15%;
     }
 }
 

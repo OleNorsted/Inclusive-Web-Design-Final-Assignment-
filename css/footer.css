@@ -1,10 +1,9 @@
 footer{
-    display: flex;
-    background-color: ghostwhite;
+    background-color: white;
     position: relative;
     margin: auto auto 2vh auto;
 }
-.footer, .footer-div, .footer-left, .footer-right{
+footer, .footer-div, .footer-left, .footer-right{
     display: flex;
     flex: 1;
 }
@@ -15,7 +14,6 @@ footer{
 /**/
 
 .footer-left{
-    background-color: ghostwhite;
     flex-direction: column;
     height: 150px;
     margin-left: 1vw;
