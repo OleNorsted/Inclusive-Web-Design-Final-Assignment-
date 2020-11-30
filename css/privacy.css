@@ -12,3 +12,21 @@
 .Data-tekst h2 {
     padding:5%
 }
+
+@media screen and (max-width: 630px) {
+
+    .mainbox{
+        width: 80%;
+        text-align: left;
+        margin-left: 10%;
+    }
+    
+    .Data-tekst{
+        padding-bottom: 5%;
+        font-size: 1.3rem;
+    }
+    
+    .Data-tekst h2 {
+        padding:5%
+    }
+}
