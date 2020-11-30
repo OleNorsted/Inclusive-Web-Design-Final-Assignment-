@@ -42,7 +42,7 @@
 }
 
 .presentationApp {
-    height: 87.7vh;
+    height: 85vh;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
     position: relative;
     padding-top: 200px;
@@ -54,7 +54,7 @@
     text-align: center;
 }
 
-.intro-textApp h2 {
+.intro-textApp h1 {
     font-size: 44px;
     font-weight: 500;
     color: whitesmoke;
@@ -101,7 +101,7 @@
         padding-top: 10%;
     }
     .presentationApp {
-        height: 87.7vh;
+        height: 85vh;
         background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
         position: relative;
         padding-top: 200px;
@@ -111,7 +111,7 @@
         margin: 0 auto;
         text-align: center;
     }
-    .intro-textApp h2 {
+    .intro-textApp h1 {
         font-size: 44px;
         font-weight: 500;
         color: whitesmoke;
@@ -164,7 +164,7 @@
     }
 
     .presentationApp {
-        height: 87.7vh;
+        height: 85vh;
         background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
         position: relative;
     }
@@ -221,7 +221,7 @@
     }
 
     .presentationApp {
-        height: 87.7vh;
+        height: 85vh;
         background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
         position: relative;
         padding-top: 200px;
@@ -231,7 +231,7 @@
         margin: 0 auto;
         text-align: center;
     }
-    .intro-textApp h2 {
+    .intro-textApp h1 {
         font-size: 30px;
         font-weight: 500;
         color: whitesmoke;

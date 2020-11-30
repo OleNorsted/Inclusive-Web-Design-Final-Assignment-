@@ -8,9 +8,8 @@ section {
 }
 
 .presentation {
-    height: 100vh;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0,0.8) 100%), url("../media/intro.background.jpg")
-    center no-repeat fixed;
+    height: 85vh;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
     position: relative;
 }
 
@@ -25,8 +24,6 @@ section {
     font-weight: 500;
     color: whitesmoke;
 }
-
-
 
 #main-section {
     height: 110vh;
@@ -50,12 +47,11 @@ section {
 .paragraph {
     width: 90%;
     height: 100vh;
-    margin-bottom:20%;
+    margin-bottom: 20%;
 }
 
-
 .main-img {
-    margin-top:20%;
+    margin-top: 20%;
     flex: 1;
     height: 35rem;
     display: flex;
@@ -67,7 +63,7 @@ section {
     margin: auto;
 }
 
-.main-button{
+.main-button {
     background-color: #9bc277;
     display: flex;
     width: fit-content;
@@ -77,12 +73,12 @@ section {
     border-radius: 30px;
 }
 
-.main-button:hover{
+.main-button:hover {
     border: solid 2px #43790d;
     transition: all ease-in-out 200ms;
 }
 
-.extraMargin{
+.extraMargin {
     margin-top: 3rem;
 }
 
@@ -104,14 +100,15 @@ section {
     display: flex;
     flex-direction: column;
 }
-.step-title{
+
+.step-title {
     text-align: center;
     font-size: 1.3rem;
     display: flex;
     flex-direction: column;
 }
 
-#step-link{
+#step-link {
     width: 30%;
     margin: auto;
     margin-top: 2%;
@@ -123,9 +120,6 @@ section {
     border-radius: 30px;
 }
 
-
 .footnote {
-    color:darkorange;
+    color: darkorange;
 }
-
-
