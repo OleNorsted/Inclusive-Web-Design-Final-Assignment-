@@ -190,7 +190,7 @@
         text-align: center;
     }
     .App-tekst {
-        width: 60%;
+        width: 100%;
         margin-bottom: 3%;
         padding: 2.5%;
         font-size: 1.3rem;
@@ -200,7 +200,8 @@
         width: 100%;
     }
     .App-bilde {
-        width: 35%;
+        width: 60%;
+        margin-left: 20%;
         padding-top: 20%;
     }
     
@@ -228,7 +229,7 @@
         text-align: center;
     }
     .intro-textApp h2 {
-        font-size: 44px;
+        font-size: 30px;
         font-weight: 500;
         color: whitesmoke;
     }

@@ -2,6 +2,7 @@ footer{
     background-color: white;
     position: relative;
     margin: auto auto 2vh auto;
+    height: 20vh;
 }
 footer, .footer-div, .footer-left, .footer-right{
     display: flex;
@@ -40,9 +41,13 @@ footer, .footer-div, .footer-left, .footer-right{
 .footer ul{
     padding-left: 0;
 }
-.footer li{
-    line-height: 2em;
+
+.footer-link{
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 30px;
 }
+
 .footer-right > *{
     flex: 1;
 }
@@ -52,6 +57,7 @@ footer, .footer-div, .footer-left, .footer-right{
 }
 
 .footer-bottom{
+    display: none;
     background-color: #ff951c;
     position: absolute;
     bottom: 0;
