@@ -9,10 +9,13 @@ footer{
     display: flex;
     flex: 1;
 }
+.footer-text{
+    background-color: yellow;
+    padding: 2rem;
+}
 .footer-left{
     background-color: green;
     flex-direction: column;
-    
 }
 .footer-left img{
     width: 40px;
@@ -34,12 +37,10 @@ footer{
     color: #999;
 }
 .footer-bottom{
-    background-color: goldenrod;
-    text-align: center;
+    background-color: yellowgreen;
     position: absolute;
-    width: 100%;
     bottom: 0;
-    margin: auto;
+    width: 100%;
 }
 .footer-left p{
     padding-right: 20%;
