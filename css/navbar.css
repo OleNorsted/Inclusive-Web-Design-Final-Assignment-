@@ -1,9 +1,6 @@
-header {
-    /* border-bottom: 3px solid black; */
-}
 
 .header {
-    /* background-color: peachpuff; */
+    background-color: peachpuff;
 }
 
 .header ul {
@@ -12,7 +9,6 @@ header {
     list-style: none;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    padding: 0 2rem 0 2rem;
 }
 
 
@@ -82,16 +78,6 @@ header {
     max-height: 0;
     transition: max-height 0.2s ease-out;
 }
-
-
-.menu li {
-    /* border: 1px solid red; */
-    /* min-width: 24%; */
-    /* text-align: center; */
-    }
-
-
-
 
 
 
@@ -177,7 +163,6 @@ header {
 @media only screen and (min-width: 769px) {
     .header {
         box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-        /* position: fixed; */
         width: 100%;
         z-index: 3;
         display: flex;
@@ -191,7 +176,6 @@ header {
         height: 75px;
         justify-content: space-evenly;
         border-radius: 15px;
-        /* border-radius: 50px; */
         align-items: center;
     }
 
@@ -234,7 +218,9 @@ header {
 
     .header ul {
         margin: 0;
+        padding: 0 2rem 0 2rem;
     }
+    
 
     .header ul.menu {
         /* border-top: 3px solid black; */
