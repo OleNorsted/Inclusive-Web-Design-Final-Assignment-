@@ -26,7 +26,7 @@ section {
 }
 
 #main-section {
-    padding: 2rem;
+    height: 100vh;;
 }
 
 .main-text {
@@ -35,29 +35,22 @@ section {
     text-align: center;
     flex: 2;
     font-size: 1.3rem;
+    width: 90%;
+    margin: auto;
 }
 
-.main-text h2 {
-    width: 90%;
-    margin-left: 5%;
+.main-text h1 {
     padding-bottom: 2%;
 }
 
-#paragraph {
-    width: 90%;
-    height: 100vh;
-    margin-bottom: 20%;
-}
-
 .main-img {
-    margin-top: 20%;
+    margin-top: 0%;
     flex: 1;
-    height: 35rem;
     display: flex;
 }
 
 #img-main {
-    height: 35rem;
+    height: 30rem;
     width: auto;
     margin: auto;
 }
@@ -81,23 +74,8 @@ section {
     margin-top: 3rem;
 }
 
-.steps {
-    padding-top: 10%;
-    padding-bottom: 5%;
-}
-
-.step {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 2%;
-    border-radius: 10px;
-    padding: 15px;
-    background-color: #9bc277;
-    text-align: center;
-    font-size: 1.3rem;
-    display: flex;
-    flex-direction: column;
+#end-section{
+    padding-top: 1rem;
 }
 
 .step-title {
@@ -107,16 +85,31 @@ section {
     flex-direction: column;
 }
 
+.step {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 75%;
+    margin: 1rem auto;
+    border-radius: 15px;
+    padding: 20px 15px;
+    background-color: #9bc277;
+    text-align: center;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
 #step-link {
-    width: 30%;
-    margin: auto;
-    margin-top: 2%;
-    background-color: rgb(255, 149, 28);
     width: fit-content;
-    margin: 5px auto auto auto;
+    margin: auto;
+    background-color: rgb(255, 149, 28);
     padding: 0.5rem 1rem;
     border: solid 2px transparent;
     border-radius: 30px;
+}
+
+#step-link:hover{
+    border: solid 2px #FFFFFF; /* Velg farge */
 }
 
 .footnote {
@@ -128,75 +121,60 @@ section {
 }
 
 @media screen and (max-width: 768px){    
+    section {
+        padding: 3rem;
+    }
+    
+    .introduction {
+        margin: 4rem auto;
+    }
+    
     .intro-text h1 {
-        font-size: 35px;
-        font-weight: 500;
-        color: whitesmoke;
+        font-size: 38px;
     }
     
     #main-section {
-        height: 110vh;
-        margin-bottom: 1rem;
+        height: 100vh;;
     }
     
     .main-text {
-        flex: 2;
-        font-size: 16px;
+        font-size: 1rem;
     }
-    
+
     .main-text h1{
-        font-size: 20px;
-    }
-    
-    .main-img {
-        margin-top: 0;
-        flex: 1;
-        height: 35rem;
-        display: flex;
+        font-size: 1.3rem;
     }
     
     #img-main {
         height: 25rem;
-        width: auto;
-        margin: auto;
     }
     
-    .main-button{
-        background-color: #9bc277;
-        display: flex;
-        width: fit-content;
-        margin: 20px auto auto auto;
-        padding: 0.3rem 1rem;
-        border: solid 2px transparent;
+    .main-button {
+        margin: 15px auto auto auto;
         border-radius: 30px;
+        font-size: 0.9rem;
     }
     
-    .main-button:hover{
-        border: solid 2px #43790d;
-        transition: all ease-in-out 200ms;
-    }
-
     .extraMargin {
-        margin-top: 2rem;
-    }
-    .steps {
-        padding-top: 10%;
-        padding-bottom: 5%;
+        margin-top: 3rem;
     }
     
-    .step {
-        width: 100%;
-        margin: 2% auto;
-        background-color: #9bc277;
-        font-size: 16px;
-        display: flex;
-        flex-direction: column;
+    #end-section{
+        padding-top: 1rem;
     }
     
     .step-title {
-        text-align: center;
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
+        font-size: 1rem;
+    }
+    
+    .step {
+        width: 80%;
+        font-size: 1rem;
+    }
+    
+    
+    #step-link {
+        font-size: 0.9rem;
     }
 }
+
