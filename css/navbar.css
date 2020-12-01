@@ -36,10 +36,6 @@
     height: 95px;
 }
 
-.menu li {
-    /* border: 1px solid red; */
-    width: fit-content;
-}
 
 .header {
     background-color: papayawhip;
@@ -55,9 +51,16 @@
     background-color: rgb(255, 255, 255);
 }
 
+.menu li {
+    /* border: 1px solid red; */
+    /* min-width: 24%; */
+    /* text-align: center; */
+    }
+
 .header li a {
     display: block;
-    /* padding: 20px 20px; */
+    padding: 5px 0 5px 0;
+    
     /* border-right: 1px solid #f4f4f4; */
     text-decoration: none;
 }
@@ -196,7 +199,7 @@
         display: block;
         height: 5px;
         width: 0%;
-        top: -20%;
+        top: 0%;
         background-color: #9bc277;
         position: absolute;
         transition: all ease-in-out 250ms;
