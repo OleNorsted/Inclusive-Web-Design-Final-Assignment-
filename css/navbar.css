@@ -154,6 +154,20 @@
     top: 0;
 }
 
+label.menu-icon {
+    width: 36px;
+   
+}
+
+.header .menu-icon {
+    cursor: pointer;
+    display: block;
+    float: right;
+    padding: 25px 18px;
+    position: relative;
+    user-select: none;
+}
+
 
 @media only screen and (min-width: 769px) {
     .header {
@@ -249,16 +263,7 @@
         padding: 15px 0 15px 0;
     }
 
-    .header .menu-icon::before {
-        content: "Menu";
-        font-style: normal;
-        font-variant: small-caps;
-        font-size: 1.3rem;
-        padding-right: 10px;
-        position: relative;
-        top: 14px;
-        left: -60px;
-    }
+    
 
     .header .menu {
         display: flex;
@@ -301,11 +306,7 @@
         padding: 15px 0px;
     }
 
-    .header .logo {
-        padding: 10px 9px 10px 10px;
-    }
-
-    .header .menu-icon::before {
+    /* .header .menu-icon::before {
         
         
         
@@ -314,7 +315,7 @@
         position: relative;
         top: 15px;
         left: -55px;
-    }
+    } */
 
     
 }

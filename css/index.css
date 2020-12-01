@@ -206,31 +206,3 @@ section {
         padding-top: 1rem;
     }
 }
-
-@media screen and (min-width: 320px){    
-    section {
-        padding: 2rem;
-    }
-    
-    .introduction {
-        margin: 3rem auto;
-    }
-    
-    #main-section {
-        height: auto;
-        flex-direction: column;
-    }
-    
-    #img-main {
-        margin-top: 3rem;
-        height: 22rem;
-    }
-    
-    .extraMargin {
-        margin-top: 3rem;
-    }
-    
-    #end-section{
-        padding-top: 1rem;
-    }
-}
