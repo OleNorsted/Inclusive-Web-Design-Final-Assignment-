@@ -189,7 +189,8 @@
         width: 50%;
         height: 70px;
         justify-content: space-evenly;
-        border-radius: 50px;
+        border-radius: 15px;
+        /* border-radius: 50px; */
         align-items: center;
     }
 
