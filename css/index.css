@@ -8,7 +8,7 @@ section {
 }
 
 .presentation {
-    height: 87.7vh;
+    height: 35rem;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
     position: relative;
 }
@@ -20,13 +20,13 @@ section {
 }
 
 .intro-text h1 {
-    font-size: 44px;
+    font-size: 3rem; 
     font-weight: 500;
     color: whitesmoke;
 }
 
 #main-section {
-    height: 100vh;;
+    min-height: 39rem;
 }
 
 .main-text {
@@ -59,7 +59,7 @@ section {
     background-color: #9bc277;
     display: flex;
     width: fit-content;
-    margin: 20px auto auto auto;
+    margin: 1.3rem auto auto auto;
     padding: 0.3rem 1rem;
     border: solid 2px transparent;
     border-radius: 30px;
@@ -76,13 +76,18 @@ section {
 
 #end-section{
     padding-top: 1rem;
+    min-height: 38rem;
 }
 
 .step-title {
-    text-align: center;
-    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 90%;
+    margin: auto;
+
 }
 
 .step {
@@ -90,7 +95,7 @@ section {
     width: 75%;
     margin: 1rem auto;
     border-radius: 15px;
-    padding: 20px 15px;
+    padding: 1rem 0.7rem;
     background-color: #9bc277;
     text-align: center;
     font-size: 1.3rem;
@@ -118,6 +123,65 @@ section {
 
 .pink {
     color: rgb(221, 120, 137);
+}
+
+@media screen and (max-width: 900px){
+    section {
+        padding: 3rem;
+    }
+    
+    .introduction {
+        margin: 4rem auto;
+    }
+    
+    .intro-text h1 {
+        font-size: 38px;
+    }
+    
+    #main-section {
+        height: 100vh;;
+    }
+    
+    .main-text {
+        font-size: 1rem;
+    }
+
+    .main-text h1{
+        font-size: 1.3rem;
+    }
+    
+    #img-main {
+        height: 25rem;
+    }
+    
+    .main-button {
+        margin: 15px auto auto auto;
+        border-radius: 30px;
+        font-size: 0.9rem;
+    }
+    
+    .extraMargin {
+        margin-top: 3rem;
+    }
+    
+    #end-section{
+        padding-top: 1rem;
+    }
+    
+    .step-title {
+        font-size: 1rem;
+    }
+    
+    .step {
+        width: 80%;
+        font-size: 1rem;
+    }
+    
+    
+    #step-link {
+        font-size: 0.9rem;
+    }
+}
 }
 
 @media screen and (max-width: 768px){    
@@ -237,4 +301,3 @@ section {
         font-size: 0.8rem;
     }
 }
-
