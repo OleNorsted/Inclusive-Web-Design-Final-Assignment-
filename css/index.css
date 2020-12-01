@@ -86,10 +86,6 @@ section {
     margin: auto;
 }
 
-#step-link:hover {
-    border: solid 2px #FFFFFF;
-    /* Velg farge */
-}
 
 .footnote {
     color: #ffa200;

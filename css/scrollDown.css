@@ -7,6 +7,8 @@
     align-items: center;
     opacity: .45;
     cursor: default;
+
+    /* User can't select text */
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
