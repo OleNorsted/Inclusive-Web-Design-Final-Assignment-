@@ -8,8 +8,8 @@ section {
 }
 
 .presentation {
-    height: 35rem;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
+    height: 38rem;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.121) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
     position: relative;
 }
 
@@ -19,7 +19,7 @@ section {
     text-align: center;
 }
 
-.intro-text h2{ 
+.intro-text h2 {
     font-weight: 500;
     color: whitesmoke;
 }
@@ -57,7 +57,7 @@ section {
     margin-top: 3rem;
 }
 
-#end-section{
+#end-section {
     padding-top: 1rem;
     min-height: 38rem;
 }
@@ -69,7 +69,6 @@ section {
     text-align: center;
     width: 90%;
     margin: auto;
-
 }
 
 .step {
@@ -84,125 +83,107 @@ section {
     flex-direction: column;
 }
 
-
 #step-link {
     margin: auto;
 }
 
-#step-link:hover{
-    border: solid 2px #FFFFFF; /* Velg farge */
+#step-link:hover {
+    border: solid 2px #FFFFFF;
+    /* Velg farge */
 }
 
 .footnote {
-    color:#ffa200;
+    color: #ffa200;
 }
 
 .pink {
-    color:#ffa200;
+    color: #ffa200;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     section {
         padding: 3rem;
     }
-    
     .introduction {
         margin: 4rem auto;
     }
-    
-    #main-section {
-        height: 100vh;;
-    }
-    
     #img-main {
         height: 25rem;
     }
-    
     .extraMargin {
         margin-top: 3rem;
     }
-    
-    #end-section{
+    #end-section {
         padding-top: 1rem;
     }
 }
 
-@media screen and (max-width: 768px){    
+@media screen and (max-width: 768px) {
     section {
         padding: 3rem;
     }
-    
     .introduction {
         margin: 4rem auto;
     }
-    
     .intro-text h2 {
         font-size: 38px;
     }
-    
     #main-section {
-        height: 100vh;;
+        height: 100vh;
+        ;
     }
-    
     .main-text {
         font-size: 1rem;
     }
-
-    .main-text h2{
+    .main-text h2 {
         font-size: 1.3rem;
     }
-    
     #img-main {
         height: 25rem;
     }
-    
     .extraMargin {
         margin-top: 3rem;
     }
-    
-    #end-section{
+    #end-section {
         padding-top: 1rem;
     }
-    
     .step-title {
         font-size: 1rem;
     }
-    
     .step {
         width: 80%;
         font-size: 1rem;
     }
-    
-    
     #step-link {
         font-size: 0.9rem;
     }
 }
 
-@media screen and (max-width: 768px){    
+@media screen and (max-width: 768px) {
     section {
         padding: 2rem;
     }
-    
     .introduction {
         margin: 3rem auto;
     }
-    
     #main-section {
         height: auto;
         flex-direction: column;
     }
-    
     #img-main {
         margin-top: 3rem;
         height: 22rem;
     }
-    
     .extraMargin {
         margin-top: 3rem;
     }
-    
-    #end-section{
+    #end-section {
         padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    section {
+        padding: 1rem;
     }
 }

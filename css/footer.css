@@ -25,7 +25,7 @@ footer{
 }
 
 .footer-logo-img{
-    height: 10vh;
+    height: 8vh;
 }
 
 .footer-logo-text{
@@ -98,7 +98,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     .footer-div{
         display: flex;
         flex: none;
@@ -127,7 +127,6 @@ footer{
         text-align: center;
         padding: 2vh;
     }
-
     .footer-title{
         margin-top: 2vh;
     }
