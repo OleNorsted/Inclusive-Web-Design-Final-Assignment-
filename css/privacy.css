@@ -1,4 +1,4 @@
-.mainbox{
+.mainbox {
     width: 70%;
     text-align: left;
     margin-left: 10%;
@@ -12,7 +12,7 @@
     letter-spacing: 1px;
 }
 
-.Data-tekst{
+.Data-tekst {
     padding-bottom: 5%;
     font-size: 1.3rem;
 }
@@ -25,9 +25,8 @@
     padding-bottom: 6px;
 }
 
-.questions{
- margin: 0.7rem 0% 3rem 4%;
- 
+.questions {
+    margin: 0.7rem 0% 3rem 4%;
 }
 
 .questions p {
@@ -47,22 +46,19 @@
     }
 }
 
-
-
 @media screen and (max-width: 630px) {
-
-    .mainbox{
+    .mainbox {
         width: 80%;
         text-align: left;
         margin-left: 10%;
     }
-    
-    .Data-tekst{
+
+    .Data-tekst {
         padding-bottom: 5%;
         font-size: 1.3rem;
         text-align: center;
     }
-    
+
     .Data-tekst h2 {
         padding: 45px 0% 25px 4%;
     }

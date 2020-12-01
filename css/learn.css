@@ -1,5 +1,16 @@
 .Orange-Ord {
     color: darkorange;
+    font-family: "Cabin Sketch";
+    font-weight: 900;
+}
+
+.headerfont {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 900;
+    text-shadow: 0 0px 1px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 
 .visit {
