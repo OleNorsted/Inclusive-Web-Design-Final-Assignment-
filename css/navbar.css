@@ -9,13 +9,9 @@
     margin-left: 2vw;
 }
 
-.logoname{
+.logoname {
     font-size: 1.8rem;
 }
-
-
-
-
 
 /* Navbar inspired by this solution: https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99 */
 
@@ -23,9 +19,10 @@
     justify-content: space-around;
 }
 
-.menu li a {
-    border-right: 1px solid black;
-}
+/* .menu li {
+    padding: 10px;
+    border-right: 2px solid hsla(0, 15%, 5%, 0.151);
+} */
 
 .logo-div {
     display: flex;
@@ -46,6 +43,8 @@
 
 .header {
     background-color: papayawhip;
+    background-color: peachpuff;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .header ul {
@@ -101,7 +100,7 @@
     clear: both;
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    /* border: 1px solid black; */
+    /* border-bottom: 2px solid black; */
 }
 
 .header .menu-icon {
@@ -171,8 +170,6 @@
     top: 0;
 }
 
-
-
 @media only screen and (min-width: 769px) {
     .header {
         box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
@@ -187,14 +184,10 @@
     .menu {
         display: flex;
         width: 50%;
-        height: 80px;
+        height: 70px;
         justify-content: space-evenly;
         border-radius: 50px;
         align-items: center;
-    }
-
-    .menu li a {
-        /* margin: auto; */
     }
 
     .nav-link::before,
@@ -230,6 +223,10 @@
 
 @media only screen and (max-width: 768px) {
 
+    .header ul {
+        margin: 0;
+    }
+
     .header ul.menu {
         /* border-top: 3px solid black; */
         background: whitesmoke;
@@ -245,12 +242,10 @@
     }
 
     .header .menu li:active {
-
+        color: darkorange;
     }
 
-    .header .menu li.bottomNav {
-        border-bottom: 0;
-    }
+    
 
     .header .menu li.topNav a {
         padding: 22px 0 15px 0;
@@ -258,7 +253,7 @@
 
     .header .menu li.bottomNav a {
         /* border: 1px solid black; */
-        padding: 15px 0 20px 0;
+        padding: 15px 0 15px 0;
     }
 
     .header .menu li a {
@@ -269,12 +264,13 @@
 
     .header .menu-icon::before {
         content: "Menu";
+        font-family: "Quicksand";
         font-style: normal;
         font-variant: small-caps;
         font-size: 1.3rem;
         padding-right: 10px;
         position: relative;
-        top: 14px;
+        top: 12px;
         left: -60px;
     }
 
@@ -287,25 +283,22 @@
     }
 
     .header label {
-        margin: 5px 0px 5px 5px;
+        margin: 9px 0px 5px 5px;
     }
 }
 
-
-@media only screen and (max-width: 500px){
-
+@media only screen and (max-width: 500px) {
     .header .logo-img {
         height: 80px;
     }
-    .logoname{
+    .logoname {
         font-size: 1.3rem;
     }
-
 
     .header .menu-icon .navicon:before {
         top: 7px;
     }
-    
+
     .header .menu-icon .navicon:after {
         top: -7px;
     }
@@ -323,16 +316,15 @@
         padding: 10px 9px 10px 10px;
     }
 
+    .header label {
+        margin: 10px 0px 5px 5px;
+    }
+
     .header .menu-icon::before {
-        
-        
-        
         font-size: 1.3rem;
         padding-right: 10px;
         position: relative;
-        top: 15px;
+        top: 13px;
         left: -55px;
     }
-
-    
 }

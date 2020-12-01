@@ -10,7 +10,27 @@ section {
 
 .presentation {
     height: 87.7vh;
-    background: rgb(255, 255, 255);
+    background: url("../media/vegetarianFeast.jpg") center no-repeat fixed;
+    background: -moz-linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(0, 0, 0, 0.5998774509803921) 30%,
+            rgba(0, 0, 0, 0.6026785714285714) 36%,
+            rgba(0, 0, 0, 0.5970763305322129) 42%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        url("../media/vegetarianFeast.jpg") center no-repeat fixed;
+
+    background: -webkit-linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(0, 0, 0, 0.5998774509803921) 30%,
+            rgba(0, 0, 0, 0.6026785714285714) 36%,
+            rgba(0, 0, 0, 0.5970763305322129) 42%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        url("../media/vegetarianFeast.jpg") center no-repeat fixed;
+
     background: linear-gradient(
             180deg,
             rgba(255, 255, 255, 0) 0%,
@@ -20,6 +40,7 @@ section {
             rgba(255, 255, 255, 0) 100%
         ),
         url("../media/vegetarianFeast.jpg") center no-repeat fixed;
+
     position: relative;
 }
 
@@ -34,26 +55,24 @@ section {
     font-weight: 900;
     letter-spacing: 1.5px;
     font-weight: 500;
-    font-family: 'Cabin Sketch';
+    font-family: "Cabin Sketch";
     font-variant: small-caps;
 
     color: whitesmoke;
     text-shadow: 0px 0px 8px #000000, -3px -2px 3px rgb(0, 0, 0);
     padding-bottom: 180px;
-    
 }
 
 .green {
     color: #9bc277;
     text-transform: uppercase;
-    font-family: 'Cabin Sketch';
-    
+    font-family: "Cabin Sketch";
 }
 
 .pink {
     color: darkorange;
     text-transform: uppercase;
-    font-family: 'Cabin Sketch';
+    font-family: "Cabin Sketch";
 }
 
 #main-section {
