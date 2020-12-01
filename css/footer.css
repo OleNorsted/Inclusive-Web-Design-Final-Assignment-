@@ -7,7 +7,6 @@ footer{
     background-color: white;
     position: relative;
     margin: auto auto 2vh auto;
-    height: 20vh;
 }
 
 .footer-div{
@@ -18,7 +17,6 @@ footer{
 
 .footer-left{
     flex-direction: column;
-    height: 150px;
 }
 
 .footer-logo-div{
@@ -47,6 +45,7 @@ footer{
 .footer-right{
     display: flex;
     flex: 3;
+    text-align: center;
 }
 
 .footer-title{
@@ -66,10 +65,23 @@ footer{
     flex: unset;
 }
 
+
 @media screen and (max-width: 768px){
 
+    footer{
+        height: auto;
+    }
 
-    
+    .footer-div{
+        height: 28vh;
+        padding: 1rem;
+    }
+
+    .footer-div{
+        align-items: center;
+    }
+
+
     .footer-logo-img{
         height: 7vh;
     }
@@ -77,8 +89,6 @@ footer{
     .footer-logo-text{
         font-size: 16px;
     }
-    
-    /**/
     
     .sources{
         margin: 2vh auto auto 0;
@@ -108,5 +118,41 @@ footer{
 
     .upBtn{
         flex: unset;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .footer-div{
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        padding: 1vh;
+        width: 100%;
+    }
+
+    .footer-left{
+
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer-logo-div{
+        flex: 1;
+    }
+
+    .sources{
+        margin: 1vh auto;
+    }
+
+    .footer-right{
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .footer-title{
+        margin-top: 2vh;
     }
 }

@@ -178,3 +178,63 @@ section {
     }
 }
 
+@media screen and (max-width: 768px){    
+    section {
+        padding: 2rem;
+    }
+    
+    .introduction {
+        margin: 3rem auto;
+    }
+    
+    .intro-text h1 {
+        font-size: 26px;
+    }
+    
+    #main-section {
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .main-text {
+        font-size: 0.8rem;
+    }
+
+    .main-text h1{
+        font-size: 1.3rem;
+    }
+    
+    #img-main {
+        margin-top: 3rem;
+        height: 22rem;
+    }
+    
+    .main-button {
+        margin: 15px auto auto auto;
+        border-radius: 30px;
+        font-size: 0.8rem;
+    }
+    
+    .extraMargin {
+        margin-top: 3rem;
+    }
+    
+    #end-section{
+        padding-top: 1rem;
+    }
+    
+    .step-title {
+        font-size: 0.9rem;
+    }
+    
+    .step {
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    
+    
+    #step-link {
+        font-size: 0.8rem;
+    }
+}
+
