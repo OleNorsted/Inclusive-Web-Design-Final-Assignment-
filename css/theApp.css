@@ -167,7 +167,7 @@
     }
 
     .presentationApp {
-        height: 40vh;
+        min-height: 8rem;
         background: whitesmoke;
         position: relative;
         padding: 2rem;
