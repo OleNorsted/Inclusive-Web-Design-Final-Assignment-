@@ -11,6 +11,7 @@ section {
     height: 38rem;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.121) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
     position: relative;
+    background-size: cover;
 }
 
 .introduction {
