@@ -1,3 +1,25 @@
+.presentationApp {
+    min-height: 8rem;
+    background: whitesmoke;
+    position: relative;
+}
+
+.introductionApp {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-textApp h1 {
+    font-size: 44px;
+    font-weight: 500;
+    color: black;
+}
+
+.farge-Ord {
+    color: darkorange;
+
+}
 .App-main {
     display: flex;
     width: 80%;
@@ -41,54 +63,10 @@
     width:75%;
 }
 
-.presentationApp {
-    min-height: 8rem;
-    background: whitesmoke;
-    position: relative;
-}
-
-.introductionApp {
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.intro-textApp h1 {
-    font-size: 44px;
-    font-weight: 500;
-    color: black;
-}
-
-.farge-Ord {
-    color: darkorange;
-}
-
 @media screen and (min-width: 840px) {
 
     .App-tekst {
         padding-top: 8%;
-    }
-    .Nav-Bilde {
-        scale: 10%;
-        padding-top: 5%;
-    }
-    .presentationApp {
-        min-height: 8rem;
-        background: whitesmoke;
-        position: relative;
-    }
-    .introductionApp {
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .intro-textApp h1 {
-        font-size: 44px;
-        font-weight: 500;
-        color: black;
-    }
-    .farge-Ord {
-        color: darkorange;
     }
 }
 
@@ -104,6 +82,9 @@
 }
 
 @media screen and (max-width: 840px) {
+    .presentationApp {
+        padding: 2rem;
+    }
     .App-main {
         width: 90%;
  }
@@ -118,29 +99,13 @@
     .Nav-Bilde {
         width:80%;
     }
-
-    .presentationApp {
-        min-height: 8rem;
-        background: whitesmoke;
-        position: relative;
-        padding: 2rem;
-    }
-    .introductionApp {
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .intro-textApp h1 {
-        font-size: 1.9rem;
-        font-weight: 500;
-        color: black;
-    }
-    .farge-Ord {
-        color: darkorange;
-    }
+  
 }
 
 @media screen and (max-width: 550px) {
+    .presentationApp {
+        padding: 1rem;
+    }
     .App-main {
         width: 80%;
     }
@@ -158,25 +123,5 @@
     }
     .Nav-Bilde {
         width:80%;
-    }
-
-    .presentationApp {
-        min-height: 8rem;
-        background: whitesmoke;
-        position: relative;
-        padding: 1rem;
-    }
-    .introductionApp {
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .intro-textApp h1 {
-        font-size: 1.60rem;
-        font-weight: 500;
-        color: black;
-    }
-    .farge-Ord {
-        color: darkorange;
     }
 }
