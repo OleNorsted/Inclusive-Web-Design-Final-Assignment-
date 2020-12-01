@@ -63,3 +63,9 @@
         padding: 45px 0% 25px 4%;
     }
 }
+
+@media screen and (max-width: 390px){
+    .headerfont {
+        font-size: 2rem;
+    }
+}
