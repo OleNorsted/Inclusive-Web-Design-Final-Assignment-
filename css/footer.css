@@ -1,13 +1,15 @@
+footer, .footer-div, .footer-left, .footer-right{
+    display: flex;
+    flex: 1;
+}
+
 footer{
     background-color: white;
     position: relative;
     margin: auto auto 2vh auto;
     height: 20vh;
 }
-footer, .footer-div, .footer-left, .footer-right{
-    display: flex;
-    flex: 1;
-}
+
 .footer-div{
     padding: 2rem;
 }
@@ -17,15 +19,20 @@ footer, .footer-div, .footer-left, .footer-right{
 .footer-left{
     flex-direction: column;
     height: 150px;
-    margin-left: 1vw;
 }
 
 .footer-logo-div{
     display: flex;
+    align-items: center;
 }
 
 .footer-logo-img{
     height: 10vh;
+}
+
+.footer-logo-text{
+    font-size: 18px;
+    padding-left: .5vw;
 }
 
 /**/
@@ -33,15 +40,6 @@ footer, .footer-div, .footer-left, .footer-right{
 .sources{
     margin: 2vh auto auto 0;
 }
-
-.footer-title{
-    font-weight: 600;
-    font-size: 17px;
-}
-.footer ul{
-    padding-left: 0;
-}
-
 
 .footer-right > *{
     flex: 1;
@@ -51,11 +49,64 @@ footer, .footer-div, .footer-left, .footer-right{
     flex: 3;
 }
 
-.footer-bottom{
-    display: none;
-    background-color: #ff951c;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+.footer-title{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.box{
+    font-size: 16px;
+}
+
+.footer-link{
+    margin: 0.1rem 0;
+}
+
+.upBtn{
+    flex: unset;
+}
+
+@media screen and (max-width: 768px){
+
+
+    
+    .footer-logo-img{
+        height: 7vh;
+    }
+    
+    .footer-logo-text{
+        font-size: 16px;
+    }
+    
+    /**/
+    
+    .sources{
+        margin: 2vh auto auto 0;
+    }
+    
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-right{
+        display: flex;
+        flex: 3;
+    }
+    
+    .footer-title{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .box{
+        margin-top: .1rem;
+        font-size: 13px;
+    }
+
+    .footer-link{
+        margin: 0.4rem 0;
+    }
+
+    .upBtn{
+        flex: unset;
+    }
 }
