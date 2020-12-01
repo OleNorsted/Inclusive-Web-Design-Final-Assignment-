@@ -119,8 +119,8 @@ section {
     background-color: #9bc277;
     display: flex;
     width: fit-content;
-    margin: 20px auto auto auto;
-    padding: 0.3rem 1rem;
+    margin: 40px auto auto auto;
+    padding: 0.6rem 1rem;
     border: solid 2px transparent;
     border-radius: 30px;
 }

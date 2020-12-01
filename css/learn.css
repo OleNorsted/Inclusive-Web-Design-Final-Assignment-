@@ -13,6 +13,11 @@
     font-weight: 500;
 }
 
+.LearnBody {
+    display: flex;
+    padding-bottom: 60px;
+}
+
 .visit {
     font-size: 16px;
     color: darkorange;
@@ -38,6 +43,9 @@
     font-size: 44px;
     font-weight: 500;
     color: whitesmoke;
+    padding-top: 8%;
+    font-family: "Cabin Sketch", sans-serif; 
+    font-variant: small-caps;
 }
 
 .The13th {
