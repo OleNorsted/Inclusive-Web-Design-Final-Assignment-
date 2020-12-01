@@ -1,44 +1,5 @@
-* {
-    margin: 0;
-}
-
-.logobox {
-    display: flex;
-    float: left;
-    align-items: center;
-    margin-left: 5%;
-}
-
-.logoname {
-    font-size: 1.8rem;
-}
-
-/* Navbar inspired by this solution: https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99 */
-
-.menu {
-    justify-content: space-around;
-}
-
-/* .menu li {
-    padding: 10px;
-    border-right: 2px solid hsla(0, 15%, 5%, 0.151);
-} */
-
-.logo-div {
-    display: flex;
-    width: 35vw;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo-img {
-    height: 95px;
-}
-
 .header {
-    background-color: papayawhip;
-    background-color: peachpuff;
+    /* background-color: peachpuff; */
 }
 
 .header ul {
@@ -49,37 +10,24 @@
     background-color: rgb(255, 255, 255);
 }
 
-.menu li {
-    /* border: 1px solid red; */
-    /* min-width: 24%; */
-    /* text-align: center; */
-    }
-
 .header li a {
     display: block;
     padding: 5px 0 5px 0;
     
     /* border-right: 1px solid #f4f4f4; */
     text-decoration: none;
-}
-
-.nav-link {
     color: black;
     font-size: 1.2rem;
     font-weight: 500;
     position: relative;
 }
 
-.nav-link:hover {
+.header li a:hover {
     color: darkorange;
     transition: 0.1s all ease-out;
 }
 
-.nav-link:hover::before {
-    width: 100%;
-}
-
-.current::before {
+.header li a:hover::before {
     width: 100%;
 }
 
@@ -87,7 +35,19 @@
     font-weight: bold;
 }
 
-.header .logo {
+.current::before {
+    width: 100%;
+}
+
+
+.logoboks {
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.logo {
     display: flex;
     flex-direction: column;
     float: left;
@@ -97,24 +57,58 @@
     /* border: 1px solid black; */
 }
 
-.header .menu {
+.logo-img {
+    height: 95px;
+}
+
+.logonavn {
+    font-size: 1.8rem;
+}
+
+
+
+/* Navbar inspired by this solution: https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99 */
+
+.menu {
+    justify-content: space-around;
     clear: both;
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    /* border-bottom: 2px solid black; */
 }
 
-.header .menu-icon {
+
+.menu li {
+    /* border: 1px solid red; */
+    /* min-width: 24%; */
+    /* text-align: center; */
+    }
+
+
+
+
+
+
+.hamburgertekst{
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    position: relative;
+    top: 12px;
+    left: -58px;
+}
+
+
+.hamburgerknapp {
     cursor: pointer;
     display: block;
     float: right;
-    padding: 24px 5px;
+    padding: 4px 0 24px 60px;
+    margin: 35px 0 20px 0;
     position: relative;
     user-select: none;
     align-items: center;
 }
 
-.header .menu-icon .navicon {
+.hamburgerknapp .ikon {
     background: #333;
     display: block;
     height: 2px;
@@ -125,8 +119,8 @@
     height: 2px;
 }
 
-.header .menu-icon .navicon:before,
-.header .menu-icon .navicon:after {
+.hamburgerknapp .ikon:before,
+.hamburgerknapp .ikon:after {
     background: #333;
     content: "";
     display: block;
@@ -136,38 +130,38 @@
     width: 100%;
 }
 
-.header .menu-icon .navicon:before {
+.hamburgerknapp .ikon:before {
     top: 8px;
 }
 
-.header .menu-icon .navicon:after {
+.hamburgerknapp .ikon:after {
     top: -8px;
 }
 
-.header .menu-btn {
+.sjekkboks {
     display: none;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
 }
 
-.header .menu-btn:checked ~ .menu {
+.sjekkboks:checked ~ .menu {
     max-height: 260px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+.sjekkboks:checked ~ .hamburgerknapp .ikon {
     background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.sjekkboks:checked ~ .hamburgerknapp .ikon:before {
     transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+.sjekkboks:checked ~ .hamburgerknapp .ikon:after {
     transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.sjekkboks:checked ~ .hamburgerknapp:not(.steps) .ikon:before,
+.sjekkboks:checked ~ .hamburgerknapp:not(.steps) .ikon:after {
     top: 0;
 }
 
@@ -192,7 +186,15 @@
         align-items: center;
     }
 
-    .nav-link::before,
+    label.hamburgerknapp { 
+        display: none;
+    }
+
+    .header li {
+        float: left;
+    }
+
+    .menu ul li a::before,
     .current::before {
         content: "";
         display: block;
@@ -208,17 +210,13 @@
         width: 100%;
     }
 
-    .header li {
-        float: left;
-    }
-
     .header .menu {
         clear: none;
         float: right;
         max-height: none;
     }
 
-    .header .menu-icon {
+    .hamburgerknapp .ikon {
         display: none;
     }
 }
@@ -234,7 +232,9 @@
         background: whitesmoke;
     }
 
-    .header ul.menu li {
+    
+
+    .menu li {
         padding: 1px;
         margin-right: 0px;
         min-width: 100%;
@@ -243,90 +243,91 @@
         border-bottom: 2px solid hsla(0, 15%, 5%, 0.151);
     }
 
-    .header .menu li:active {
-        color: darkorange;
-    }
-
     
 
-    .header .menu li.topNav a {
+    .menu li.topNav a {
         padding: 22px 0 15px 0;
     }
 
-    .header .menu li.bottomNav a {
+    .menu li.bottomNav a {
         /* border: 1px solid black; */
         padding: 15px 0 15px 0;
     }
 
-    .header .menu li a {
+    .menu li a {
         /* border: 1px solid red; */
         box-sizing: border-box;
         padding: 15px 0 15px 0;
     }
 
-    .header .menu-icon::before {
-        content: "Menu";
-        font-family: "Quicksand";
-        font-style: normal;
-        font-variant: small-caps;
-        font-size: 1.3rem;
-        padding-right: 10px;
-        position: relative;
-        top: 12px;
-        left: -60px;
-    }
-
-    .header .menu {
+    .menu {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 0 2rem 0 2rem;
     }
+    
 
     .header label {
-        margin: 9px 0px 5px 5px;
+        margin: 32px 0px 5px 5px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .header .logo-img {
+    .logo-img {
         height: 80px;
     }
-    .logoname {
+    .logonavn {
         font-size: 1.3rem;
     }
-
-    .header .menu-icon .navicon:before {
-        top: 7px;
-    }
-
-    .header .menu-icon .navicon:after {
-        top: -7px;
-    }
-
-    .header .menu-icon .navicon {
+    
+    .hamburgerknapp .ikon {
         width: 25px;
         height: 2px;
     }
 
-    .header .menu-icon {
-        padding: 15px 0px;
+    .hamburgerknapp .ikon:before {
+        top: 7px;
     }
 
-    .header .logo {
+    .hamburgerknapp .ikon:after {
+        top: -7px;
+    }
+
+    .logo {
         padding: 10px 9px 10px 10px;
     }
 
-    .header label {
-        margin: 10px 0px 5px 5px;
+    label.hamburgerknapp{
+        margin: 23px 0px 5px 5px;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .logo-img {
+        height: 60px;
     }
 
-    .header .menu-icon::before {
-        font-size: 1.3rem;
-        padding-right: 10px;
-        position: relative;
-        top: 13px;
-        left: -55px;
+    .logonavn {
+        font-size: 1rem;
     }
+
+    label.hamburgerknapp{
+        margin: 17px 0px 5px 5px;
+    }
+
+    .hamburgerknapp .ikon {
+        width: 21px;
+        height: 1px;
+    }
+
+    .hamburgertekst {
+        font-size: 1rem;
+    
+        position: relative;
+        top: 9px;
+        left: -50px;
+    }
+
 }
