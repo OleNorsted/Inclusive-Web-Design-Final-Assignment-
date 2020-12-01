@@ -8,6 +8,7 @@ section {
     align-items: center;
 }
 
+/* Customized from: https://cssgradient.io/ */
 .presentation {
     height: 87.7vh;
     background: url("../media/vegetarianFeast.jpg") center no-repeat fixed;

@@ -36,11 +36,9 @@
     height: 95px;
 }
 
-
 .header {
     background-color: papayawhip;
     background-color: peachpuff;
-    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .header ul {
