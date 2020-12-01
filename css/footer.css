@@ -29,7 +29,6 @@ footer{
 }
 
 .footer-logo-text{
-    font-size: 18px;
     padding-left: .5vw;
 }
 
@@ -67,28 +66,6 @@ footer{
 
 
 @media screen and (max-width: 768px){
-
-    footer{
-        height: auto;
-    }
-
-    .footer-div{
-        height: 28vh;
-        padding: 1rem;
-    }
-
-    .footer-div{
-        align-items: center;
-    }
-
-
-    .footer-logo-img{
-        height: 7vh;
-    }
-    
-    .footer-logo-text{
-        font-size: 16px;
-    }
     
     .sources{
         margin: 2vh auto auto 0;
