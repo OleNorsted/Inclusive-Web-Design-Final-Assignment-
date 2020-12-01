@@ -5,11 +5,17 @@ main {
 section {
     padding: 5rem;
     display: flex;
+    align-items: center;
 }
 
 .presentation {
     height: 87.7vh;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url("../media/intro.background.jpg") center no-repeat fixed;
+    background: linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.6) 0%,
+            rgba(0, 0, 0, 0.8) 100%
+        ),
+        url("../media/vegetarianFeast.jpg") center no-repeat fixed;
     position: relative;
 }
 
@@ -21,8 +27,23 @@ section {
 
 .intro-text h1 {
     font-size: 44px;
-    font-weight: 500;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    font-variant: small-caps;
+
     color: whitesmoke;
+    text-shadow: 5px 5px 20px black, 5px 5px 20px black, 5px 5px 20px black,
+        5px 5px 10px black;
+}
+
+.green {
+    color: #9bc277;
+    text-transform: uppercase;
+}
+
+.pink {
+    color: lightcoral;
+    text-transform: uppercase;
 }
 
 #main-section {
@@ -123,45 +144,45 @@ section {
     color: darkorange;
 }
 
-.pink {
-    color: rgb(221, 120, 137);
-}
+@media screen and (max-width: 768px) {
+    section {
+        padding: 1.5rem;
+    }
 
-@media screen and (max-width: 768px){    
     .intro-text h1 {
-        font-size: 35px;
-        font-weight: 500;
+        font-size: 8vw;
+        font-weight: 900;
         color: whitesmoke;
     }
-    
+
     #main-section {
         height: 110vh;
         margin-bottom: 1rem;
     }
-    
+
     .main-text {
         flex: 2;
         font-size: 16px;
     }
-    
-    .main-text h1{
+
+    .main-text h1 {
         font-size: 20px;
     }
-    
+
     .main-img {
         margin-top: 0;
         flex: 1;
         height: 35rem;
         display: flex;
     }
-    
+
     #img-main {
         height: 25rem;
         width: auto;
         margin: auto;
     }
-    
-    .main-button{
+
+    .main-button {
         background-color: #9bc277;
         display: flex;
         width: fit-content;
@@ -170,8 +191,8 @@ section {
         border: solid 2px transparent;
         border-radius: 30px;
     }
-    
-    .main-button:hover{
+
+    .main-button:hover {
         border: solid 2px #43790d;
         transition: all ease-in-out 200ms;
     }
@@ -183,7 +204,7 @@ section {
         padding-top: 10%;
         padding-bottom: 5%;
     }
-    
+
     .step {
         width: 100%;
         margin: 2% auto;
@@ -192,11 +213,22 @@ section {
         display: flex;
         flex-direction: column;
     }
-    
+
     .step-title {
         text-align: center;
         font-size: 20px;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 519px) {
+    section {
+        padding: 1rem;
+    }
+
+    .intro-text h1 {
+        font-size: 8vw;
+        font-weight: bold;
     }
 }
