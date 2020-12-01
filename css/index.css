@@ -8,10 +8,12 @@ section {
     align-items: center;
 }
 
-/* Customized from: https://cssgradient.io/ */
+
 .presentation {
     height: 87.7vh;
     background: url("../media/vegetarianFeast.jpg") center no-repeat fixed;
+    
+    /* Customized gradient on: https://cssgradient.io/ */
     background: -moz-linear-gradient(
             180deg,
             rgba(255, 255, 255, 0) 0%,

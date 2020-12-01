@@ -1,5 +1,5 @@
 .mainbox{
-    width: 75%;
+    width: 60%;
     text-align: left;
     margin-left: 10%;
 }
@@ -18,7 +18,7 @@
 }
 
 .Data-tekst h2 {
-    padding: 6% 0% 2% 4%;
+    padding: 70px 0 2.5rem 4%;
 }
 
 .Data-tekst h3 {
@@ -26,8 +26,13 @@
 }
 
 .questions{
- margin: 1% 0% 4% 4%;
+ margin: 0.7rem 0% 3rem 4%;
  
+}
+
+.questions p {
+    /* letter-spacing: 0.3px; */
+    line-height: 1.8rem;
 }
 
 
@@ -50,6 +55,6 @@
     }
     
     .Data-tekst h2 {
-        padding:5%
+        padding: 45px 0% 25px 4%;
     }
 }
