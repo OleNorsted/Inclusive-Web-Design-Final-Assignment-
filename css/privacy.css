@@ -1,5 +1,5 @@
 .mainbox{
-    width: 60%;
+    width: 70%;
     text-align: left;
     margin-left: 10%;
 }
@@ -35,6 +35,18 @@
     line-height: 1.8rem;
 }
 
+@media screen and (max-width: 1247px) {
+    .mainbox {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1001px) {
+    .Data-tekst h2 {
+        text-align: center;
+    }
+}
+
 
 
 @media screen and (max-width: 630px) {
@@ -44,14 +56,11 @@
         text-align: left;
         margin-left: 10%;
     }
-
-    .Data-tekst h2 {
-        text-align: center;
-    }
     
     .Data-tekst{
         padding-bottom: 5%;
         font-size: 1.3rem;
+        text-align: center;
     }
     
     .Data-tekst h2 {
