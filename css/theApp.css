@@ -68,18 +68,6 @@
     .App-tekst {
         padding-top: 8%;
     }
-    .App-bilder {
-        width: 100%;
-    }
-    #App-tekst2 {
-        margin-top: 3%;
-    }
-    #App-tekst3 {
-        margin-top: 3%;
-    }
-    .link--too--privacy {
-        color: darkorange;
-    }
     .Nav-Bilde {
         scale: 10%;
         padding-top: 5%;
@@ -123,22 +111,9 @@
         width: 54%;
         padding-top: 20%;
     }
-    .App-bilder {
-        width: 100%;
-    }
     .App-bilde {
         width: 45%;
         padding-top: 15%;
-    }
-    
-    #App-tekst2 {
-        margin-top: 3%;
-    }
-    #App-tekst3 {
-        margin-top: 3%;
-    }
-    .link--too--privacy {
-        color: darkorange;
     }
     .Nav-Bilde {
         width:80%;
@@ -181,22 +156,12 @@
         margin-left: 20%;
         padding-top: 10%;
     }
-    
-    #App-tekst2 {
-        margin-top: 3%;
-    }
-    #App-tekst3 {
-        margin-top: 3%;
-    }
-    .link--too--privacy {
-        color: darkorange;
-    }
     .Nav-Bilde {
         width:80%;
     }
 
     .presentationApp {
-        height: 45vh;
+        min-height: 8rem;
         background: whitesmoke;
         position: relative;
         padding: 1rem;
