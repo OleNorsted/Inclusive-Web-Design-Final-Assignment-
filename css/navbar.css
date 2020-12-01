@@ -138,7 +138,7 @@
 }
 
 .sjekkboks:checked ~ .menu {
-    max-height: 260px;
+    max-height: 250px;
 }
 
 .sjekkboks:checked ~ .hamburgerknapp .ikon {
@@ -265,10 +265,6 @@
 
     .header label {
         margin: 32px 0px 5px 5px;
-    }
-
-    .menu li.bottomNav {
-        border: 0;
     }
 }
 
