@@ -6,7 +6,6 @@
 
 .Data-tekst{
     padding-bottom: 5%;
-    font-size: 1.3rem;
 }
 
 .Data-tekst h2 {
@@ -16,6 +15,7 @@
 .questions{
 margin: 3vw;
 }
+
 
 
 
@@ -29,7 +29,6 @@ margin: 3vw;
     
     .Data-tekst{
         padding-bottom: 5%;
-        font-size: 1.3rem;
     }
     
     .Data-tekst h2 {

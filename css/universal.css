@@ -15,3 +15,77 @@ a {
 li {
     list-style: none;
 }
+
+.fontSizeMain{
+    font-size: 44px !important;
+}
+
+.fontSizeM{
+    font-size: 2rem !important;
+}
+
+.fontSizeP{
+    font-size: 1.3rem !important;
+}
+
+.btnGreen{
+    background-color: #9bc277;
+    display: flex;
+    width: fit-content;
+    margin: 1.3rem auto auto auto;
+    padding: 0.3rem 1rem;
+    border: solid 2px transparent;
+    border-radius: 30px;
+}
+
+.btnGreen:hover{
+    border: solid 2px #43790d;
+    transition: all ease-in-out 200ms;
+}
+
+.btnOrange{
+    background-color: #ff951c !important;
+    display: flex;
+    width: fit-content;
+    margin: 1.3rem auto auto auto;
+    padding: 0.3rem 1rem;
+    border: solid 2px transparent;
+    border-radius: 30px;
+}
+
+.btnOrange:hover{
+    border: solid 2px #43790d; /* Bytt farge! */
+    transition: all ease-in-out 200ms;
+}
+
+@media screen and (max-width: 900px){
+    .fontSizeMain{
+        font-size: 38px !important;
+    }
+    .fontSizeM{
+        font-size: 1.3rem !important;
+    }
+    .fontSizeP{
+        font-size: 1rem !important;
+    }
+
+    .btnGreen, .btnOrange{
+        margin: 15px auto auto auto;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .fontSizeMain{
+        font-size: 34px !important;
+    }
+    .fontSizeM{
+        font-size: 1.3rem !important;
+    }
+    .fontSizeP{
+        font-size: .8rem !important;
+    }
+    .btnGreen, .btnOrange{
+        font-size: .8rem;
+    }
+}
