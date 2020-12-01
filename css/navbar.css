@@ -13,6 +13,7 @@
 .header li a {
     display: block;
     padding: 5px 0 5px 0;
+    
     /* border-right: 1px solid #f4f4f4; */
     text-decoration: none;
     color: black;
@@ -37,6 +38,7 @@
 .current::before {
     width: 100%;
 }
+
 
 .logoboks {
     display: flex;
@@ -63,6 +65,8 @@
     font-size: 1.8rem;
 }
 
+
+
 /* Navbar inspired by this solution: https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99 */
 
 .menu {
@@ -72,19 +76,26 @@
     transition: max-height 0.2s ease-out;
 }
 
+
 .menu li {
     /* border: 1px solid red; */
     /* min-width: 24%; */
     /* text-align: center; */
-}
+    }
 
-.hamburgertekst {
+
+
+
+
+
+.hamburgertekst{
     font-family: "Quicksand", sans-serif;
     font-size: 1.2rem;
     position: relative;
     top: 12px;
     left: -58px;
 }
+
 
 .hamburgerknapp {
     cursor: pointer;
@@ -108,7 +119,8 @@
     height: 2px;
 }
 
-.hamburgerknapp .ikon:before, .hamburgerknapp .ikon:after {
+.hamburgerknapp .ikon:before,
+.hamburgerknapp .ikon:after {
     background: #333;
     content: "";
     display: block;
@@ -132,23 +144,24 @@
     height: 10px;
 }
 
-.sjekkboks:checked~.menu {
+.sjekkboks:checked ~ .menu {
     max-height: 260px;
 }
 
-.sjekkboks:checked~.hamburgerknapp .ikon {
+.sjekkboks:checked ~ .hamburgerknapp .ikon {
     background: transparent;
 }
 
-.sjekkboks:checked~.hamburgerknapp .ikon:before {
+.sjekkboks:checked ~ .hamburgerknapp .ikon:before {
     transform: rotate(-45deg);
 }
 
-.sjekkboks:checked~.hamburgerknapp .ikon:after {
+.sjekkboks:checked ~ .hamburgerknapp .ikon:after {
     transform: rotate(45deg);
 }
 
-.sjekkboks:checked~.hamburgerknapp:not(.steps) .ikon:before, .sjekkboks:checked~.hamburgerknapp:not(.steps) .ikon:after {
+.sjekkboks:checked ~ .hamburgerknapp:not(.steps) .ikon:before,
+.sjekkboks:checked ~ .hamburgerknapp:not(.steps) .ikon:after {
     top: 0;
 }
 
@@ -162,6 +175,7 @@
         justify-content: space-between;
         align-items: center;
     }
+
     .menu {
         display: flex;
         width: 55%;
@@ -171,13 +185,17 @@
         /* border-radius: 50px; */
         align-items: center;
     }
-    label.hamburgerknapp {
+
+    label.hamburgerknapp { 
         display: none;
     }
+
     .header li {
         float: left;
     }
-    .menu ul li a::before, .current::before {
+
+    .menu ul li a::before,
+    .current::before {
         content: "";
         display: block;
         height: 5px;
@@ -187,27 +205,35 @@
         position: absolute;
         transition: all ease-in-out 250ms;
     }
+
     .current::before {
         width: 100%;
     }
+
     .header .menu {
         clear: none;
         float: right;
         max-height: none;
     }
+
     .hamburgerknapp .ikon {
         display: none;
     }
 }
 
 @media only screen and (max-width: 768px) {
+
     .header ul {
         margin: 0;
     }
+
     .header ul.menu {
         /* border-top: 3px solid black; */
         background: whitesmoke;
     }
+
+    
+
     .menu li {
         padding: 1px;
         margin-right: 0px;
@@ -216,28 +242,35 @@
         letter-spacing: 1px;
         border-bottom: 2px solid hsla(0, 15%, 5%, 0.151);
     }
+
+    
+
     .menu li.topNav a {
         padding: 22px 0 15px 0;
     }
+
     .menu li.bottomNav a {
         /* border: 1px solid black; */
         padding: 15px 0 15px 0;
     }
+
     .menu li a {
         /* border: 1px solid red; */
         box-sizing: border-box;
         padding: 15px 0 15px 0;
     }
-    
-    .header .menu ul {
+
+    .menu {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 0 2rem 0 2rem;
     }
-    .hea/* der label {
- */ */        margin: 32px 0px 5px 5px;
+    
+
+    .header label {
+        margin: 32px 0px 5px 5px;
     }
 }
 
@@ -248,42 +281,53 @@
     .logonavn {
         font-size: 1.3rem;
     }
+    
     .hamburgerknapp .ikon {
         width: 25px;
         height: 2px;
     }
+
     .hamburgerknapp .ikon:before {
         top: 7px;
     }
+
     .hamburgerknapp .ikon:after {
         top: -7px;
     }
+
     .logo {
         padding: 10px 9px 10px 10px;
     }
-    label.hamburgerknapp {
-        margin: 23px 0px 5px 5px;
+
+    label.hamburgerknapp{
+        margin: 27px 0px 5px 5px;
     }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 370px){
     .logo-img {
         height: 60px;
     }
+
     .logonavn {
         font-size: 1rem;
     }
-    label.hamburgerknapp {
+
+    label.hamburgerknapp{
         margin: 17px 0px 5px 5px;
     }
+
     .hamburgerknapp .ikon {
         width: 21px;
         height: 1px;
     }
+
     .hamburgertekst {
         font-size: 1rem;
+    
         position: relative;
         top: 9px;
         left: -50px;
     }
+
 }
