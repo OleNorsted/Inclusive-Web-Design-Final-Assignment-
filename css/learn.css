@@ -8,7 +8,8 @@
 }
 
 .footnote {
-    color: #ff951c;
+    color: darkorange;
+    font-weight: 500;
 }
 
 .container {
@@ -55,7 +56,7 @@
 }
 
 .The13th {
-    color: #71a046;
+    color: #7bb33b;
 }
 
 @media screen and (min-width:700px) {
