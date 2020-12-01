@@ -23,6 +23,10 @@
     justify-content: space-around;
 }
 
+.menu li a {
+    border-right: 1px solid black;
+}
+
 .logo-div {
     display: flex;
     width: 35vw;
@@ -186,10 +190,11 @@
         height: 80px;
         justify-content: space-evenly;
         border-radius: 50px;
+        align-items: center;
     }
 
-    .menu li {
-        margin: auto;
+    .menu li a {
+        /* margin: auto; */
     }
 
     .nav-link::before,
