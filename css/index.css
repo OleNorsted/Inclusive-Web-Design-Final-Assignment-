@@ -8,11 +8,10 @@ section {
     align-items: center;
 }
 
-
 .presentation {
     height: 87.7vh;
     background: url("../media/vegetarianFeast.jpg") center no-repeat fixed;
-    
+
     /* Customized gradient on: https://cssgradient.io/ */
     background: -moz-linear-gradient(
             180deg,
@@ -57,8 +56,7 @@ section {
     font-size: calc(30px + 2vw);
     font-weight: 900;
     letter-spacing: 1.5px;
-    font-weight: 500;
-    font-family: "Cabin Sketch";
+    font-family: "Quicksand", "Cabin Sketch", sans-serif;
     font-variant: small-caps;
 
     color: whitesmoke;
@@ -69,13 +67,13 @@ section {
 .green {
     color: #9bc277;
     text-transform: uppercase;
-    font-family: "Cabin Sketch";
+    font-family: "Cabin Sketch", sans-serif;
 }
 
 .pink {
     color: darkorange;
     text-transform: uppercase;
-    font-family: "Cabin Sketch";
+    font-family: "Cabin Sketch", sans-serif;
 }
 
 #main-section {
