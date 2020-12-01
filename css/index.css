@@ -204,7 +204,7 @@ section {
     
     background-color: rgb(255, 149, 28);
     width: fit-content;
-    margin: 20px auto auto auto;
+    margin: 20px auto 40px auto;
     padding: 0.5rem 1rem;
     border: solid 2px transparent;
     border-radius: 30px;
