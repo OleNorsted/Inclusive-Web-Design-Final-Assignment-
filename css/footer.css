@@ -131,7 +131,6 @@ footer{
     }
 
     .footer-left{
-
         height: auto;
         margin: auto;
         text-align: center;
@@ -154,5 +153,11 @@ footer{
 
     .footer-title{
         margin-top: 2vh;
+    }
+}
+
+@media screen and (max-height: 425px){
+    .footer-div{
+        height: 20vw;
     }
 }
