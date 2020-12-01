@@ -1,7 +1,15 @@
 .mainbox{
-    width: 80%;
+    width: 75%;
     text-align: left;
     margin-left: 10%;
+}
+
+.headerfont {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 900;
+    text-shadow: 0 0px 1px;
+    font-size: 3rem;
+    letter-spacing: 1px;
 }
 
 .Data-tekst{
@@ -10,11 +18,16 @@
 }
 
 .Data-tekst h2 {
-    padding:5%
+    padding: 6% 0% 2% 4%;
+}
+
+.Data-tekst h3 {
+    padding-bottom: 6px;
 }
 
 .questions{
-margin: 3vw;
+ margin: 1% 0% 4% 4%;
+ 
 }
 
 
@@ -25,6 +38,10 @@ margin: 3vw;
         width: 80%;
         text-align: left;
         margin-left: 10%;
+    }
+
+    .Data-tekst h2 {
+        text-align: center;
     }
     
     .Data-tekst{
